@@ -1,6 +1,8 @@
 ---?image=assets/images/gitpitch-audience.jpg
 @title[Platform Build Win Lab]
-<br><br><br><br><br>
+<br><br>
+<span style="font-size:0.75em" >This slide deck has moved to:  https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/</span>
+<br><br><br>
 ## <span class="gold"   >UEFI & EDK II Training</span>
 
 #### Platform Build Windows Lab 
@@ -227,8 +229,8 @@ Note:
   <li><span style="font-size:0.7em" >Open Visual Studio and create a “C++” project </span> </li>
   <li><span style="font-size:0.7em" > (This will take some time to install)</span> </li>
 </ul>  
-<p style="line-height:80%"><span style="font-size:0.8em" >2. If you get a BUILD Error: Check if  RC.Exe compiler not found is the error -<a hre=""> here</a> </span> </p>
-<p style="line-height:80%"><span style="font-size:0.8em" >3. If you get a BUILD Error: `fatal error C1041: cannot open program database` … Check <a hre=""> here</a>  </span> </p>
+<p style="line-height:80%"><span style="font-size:0.8em" >2. If you get a BUILD Error: Check if  RC.Exe compiler not found is the error -<a hre="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/56"> here</a> </span> </p>
+<p style="line-height:80%"><span style="font-size:0.8em" >3. If you get a BUILD Error: `fatal error C1041: cannot open program database` … Check <a hre="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/57"> here</a>  </span> </p>
 
 
 Note:
@@ -594,6 +596,15 @@ $ cd Vlv2TbltDevicePkg
 $ Build_IFWI.bat /l MNW2 Release
 ```
 
+---
+@title[DEBUG & RELEASE Differences]
+### <p align="right"><span class="gold" >DEBUG & RELEASE Differences</span></p>
+@box[bg-purple text-white rounded fragment](<span style="font-size:0.85em" >Slower boot because the time it takes to display debug info </span>)
+@box[bg-green text-white rounded fragment](<span style="font-size:0.85em" >Larger image because of debug code & embedded info </span>)
+@box[bg-orange text-white rounded fragment](<span style="font-size:0.85em" >Uses the serial port for debug string output</span>)
+@box[bg-blue text-white rounded fragment](<span style="font-size:0.85em" >Contains detailed debug strings that shoe the boot progress and various `ASSERT` / `TRACE` errors</span>)
+
+ 
 
 ---?image=/assets/images/slides/Slide52.JPG
 <!-- .slide: data-transition="none" -->
