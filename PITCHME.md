@@ -229,8 +229,8 @@ Note:
   <li><span style="font-size:0.7em" >Open Visual Studio and create a “C++” project </span> </li>
   <li><span style="font-size:0.7em" > (This will take some time to install)</span> </li>
 </ul>  
-<p style="line-height:80%"><span style="font-size:0.8em" >2. If you get a BUILD Error: Check if  RC.Exe compiler not found is the error -<a hre="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/56"> here</a> </span> </p>
-<p style="line-height:80%"><span style="font-size:0.8em" >3. If you get a BUILD Error: `fatal error C1041: cannot open program database` … Check <a hre="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/57"> here</a>  </span> </p>
+<p style="line-height:80%"><span style="font-size:0.8em" >2. If you get a BUILD Error: Check if  RC.Exe compiler not found is the error -<a href="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/56"> here</a> </span> </p>
+<p style="line-height:80%"><span style="font-size:0.8em" >3. If you get a BUILD Error: `fatal error C1041: cannot open program database` … Check <a href="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/57"> here</a>  </span> </p>
 
 
 Note:
@@ -599,69 +599,13 @@ $ Build_IFWI.bat /l MNW2 Release
 ---
 @title[DEBUG & RELEASE Differences]
 ### <p align="right"><span class="gold" >DEBUG & RELEASE Differences</span></p>
-@box[bg-purple text-white rounded fragment](<span style="font-size:0.85em" >Slower boot because the time it takes to display debug info </span>)
-@box[bg-green text-white rounded fragment](<span style="font-size:0.85em" >Larger image because of debug code & embedded info </span>)
-@box[bg-orange text-white rounded fragment](<span style="font-size:0.85em" >Uses the serial port for debug string output</span>)
-@box[bg-blue text-white rounded fragment](<span style="font-size:0.85em" >Contains detailed debug strings that shoe the boot progress and various `ASSERT` / `TRACE` errors</span>)
+@box[bg-purple text-white rounded fragment](<span style="font-size:0.95em" >Slower boot because the time it takes to display debug info </span>)
+@box[bg-green text-white rounded fragment](<span style="font-size:0.95em" >Larger image because of debug code & embedded info </span>)
+@box[bg-orange text-white rounded fragment](<span style="font-size:0.95em" >Uses the serial port for debug string output</span>)
+@box[bg-blue text-white rounded fragment](<span style="font-size:0.95em" >Contains detailed debug strings that show the boot progress and various `ASSERT` / `TRACE` errors</span>)
 
  
-
----?image=/assets/images/slides/Slide52.JPG
-<!-- .slide: data-transition="none" -->
-@title[DEBUG & RELEASE Differences]
-### <p align="right"><span class="gold" >DEBUG & RELEASE Differences</span></p>
-
- 
-
 Note:
-### DEBUG build …
-- Contains detailed debug strings that show the boot process, along with various ASSERT/TRACE errors
-- Uses the serial port for debug string output
-- Larger image than RELEASE, due to the embedded debug info
-- Slower boot than RELEASE, due to the time it takes to display the debug info
-
-
-### RELEASE build …
-- Does not contain the debug strings
-- Does not use the serial port for debug output
-- Smaller image than DEBUG
-- Faster boot than DEBUG
-
- 
-+++?image=/assets/images/slides/Slide53.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[DEBUG & RELEASE Differences 02]
-### <p align="right"><span class="gold" >DEBUG & RELEASE Differences</span></p>
-
-Note: 
-
- 
-+++?image=/assets/images/slides/Slide54.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[DEBUG & RELEASE Differences 03]
-### <p align="right"><span class="gold" >DEBUG & RELEASE Differences</span></p>
-
-Note: 
- 
- 
-+++?image=/assets/images/slides/Slide55.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[DEBUG & RELEASE Differences 04]
-### <p align="right"><span class="gold" >DEBUG & RELEASE Differences</span></p>
-
-Note: 
-  
- 
-+++?image=/assets/images/slides/Slide56.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[DEBUG & RELEASE Differences 05]
-### <p align="right"><span class="gold" >DEBUG & RELEASE Differences</span></p>
-
-Note: 
 
 ### DEBUG build …
 - Contains detailed debug strings that show the boot process, along with various ASSERT/TRACE errors
