@@ -118,10 +118,36 @@ Note:
 
 
 
+---
+@title[Optional - Downloading the Edk II Source]
+<p align="right"><span class="gold" >Download the Edk II Source<br><i>- Optional</i></span></p>
+
+
+<i>OPTIONAL</i> - Open a  “git” command prompt and create a source working directory
+<pre>
+- C:\>mkdir WS
+- C:\> cd WS
+
+- OPTIONAL - Internet Proxies – (company Firewall used for example)
+
+- C:\WS> git config --global https.proxy <proxyname>.domain.com:<port>
+- C:\WS> git config --global http.proxy <proxyname>.domain.com:<port>
+
+- OPTIONAL - Download edk2 source tree using Git command prompt
+- C:\WS> git clone https://github.com/tianocore/edk2.git
+- C:\WS> git clone https://github.com/tianocore/edk2-BaseTools-win32.git
+
+- OPTIONAL - Build the tools
+- C:\WS>  set EDK_TOOLS_BIN=c:\WS\edk2-BaseTools-win32
+</pre>
+
+- @color[yellow](NOTE:) Lab Material will have a different “edk2”
+
+
 
 ---?image=/assets/images/slides/Slide11.JPG
 @title[Optional - Downloading the Edk II Source]
-### <p align="right"><span class="gold" >Down load the Edk II Source<br><i>- Optional</i></span></p>
+<p align="right"><span class="gold" >Download the Edk II Source<br><i>- Optional</i></span></p>
 
 
 Note:
