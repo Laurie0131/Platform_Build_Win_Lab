@@ -628,9 +628,17 @@ Note:
 Note:
 - The EDK II build generates multiple firmware volumes, which are combined in the .BIN image
 
----?image=/assets/images/slides/Slide58.JPG
+---?image=/assets/images/slides/Slide55_1.JPG
 @title[Flash onto the MinnowBoard MAX]
 ### <p align="right"><span class="gold" >Flasing the New BIOS</span></p>
+1.  Access Max Binary image file from build folder
+  - `C:/fw/Max/Vlv2TbltDevicePkg/Stitch`
+  - DEBUG 	MNW2MAX1.X64.D01.0098._date_.bin
+  - RELEASE	MNW2MAX1.X64.R01.0098._date_.bin
+2. Copy BIN files to a USB Thumb drive
+3. Copy MinnowBoard.MAX.FirmwareUpdateX64.efi to a USB thumb drive from $.../FW/PlatformBuildLab
+4. Boot to UEFI Shell on Max and type "FS0:"
+
  
 Note:
 1.  Access Max Binary image file from build folder
@@ -643,9 +651,20 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide59.JPG
+---?image=/assets/images/slides/Slide56_1.JPG
 @title[Flash onto the MinnowBoard MAX 02]
 ### <p align="right"><span class="gold" >Flashing the New BIOS</span></p>
+
+5. Run update .efi utility with either BIN file  (Note the “TAB” Key will fill out the command line for you 
+```
+FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bin
+```
+Wait for thenew firmware update to finish
+<br>
+<br>
+<br>
+<br>
+6. Reset and boot new firmware
  
 Note:
 5. Run update .efi utility with either BIN file  (Note the “TAB” Key will fill out the command line for you 
@@ -656,9 +675,13 @@ FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bi
 6. Reset and boot new firmware
 
 
----?image=/assets/images/slides/Slide60.JPG
+---?image=/assets/images/slides/Slide57_1.JPG
 @title[Verify after Firmware Update]
 ### <p align="right"><span class="gold" >Verify after Firmware Update</span></p>
+
+- Verify that the Firmware was updated by checking the Date
+- At the shell prompt type “exit”
+- The EDK II front page will show the BIOS ID with Date/time stamp
  
 Note:
 
