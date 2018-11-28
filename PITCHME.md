@@ -669,6 +669,7 @@ FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bi
 <br>
 <br>
 <br>
+<br>
 <p style="line-height:70%"><span style="font-size:0.85em" >6. Reset and boot new firmware</span></p>
 
  
