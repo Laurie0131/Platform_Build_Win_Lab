@@ -171,8 +171,6 @@ OPTIONAL - Open a  “git” command prompt and create a source working director
 
 - NOTE: Lab Material will have a different “edk2”
 
----
-blank page
 
 ---?image=assets/images/binary-strings-black2.jpg
 @title[Setup Lab Material sub Section]
@@ -237,7 +235,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide18.JPG
 @title[Build Nt32 Edk2 -update target.txt]
-### <p align="right"><span class="gold" >Build EDK II Nt32</span><br></span></p>
+### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Update Target.txt</font></span></p>
 
 Note:
@@ -266,7 +264,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide19.JPG
 @title[Build Nt32 Edk2 -build inside VS Prompt]
-### <p align="right"><span class="gold" >Build EDK II Nt32</span><br></span></p>
+### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Inside VS Prompt</font></span></p>
 
 Note:
@@ -275,7 +273,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide20.JPG
 @title[Build Nt32 Edk2 -invoke Nt32]
-### <p align="right"><span class="gold" >Invoke Nt32 Emulation</span><br></span></p>
+### <p align="right"><span class="gold" >Invoke Nt32 Emulation</span></p>
 
 
 Note:
@@ -426,9 +424,9 @@ Note:
 <p align="left"><span class="gold" >Where to get Open Source<BR> MinnowBoard Max</span></p>
 <br>
 - <span style="font-size:0.9em"><font  color="yellow">Open Source </font><a href="https://github.com/tianocore/tianocore.github.io/wiki/MinnowBoardMax"> Max Wiki</a></span>
-  - <span style="font-size:0.9em">V.98 -<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017"> Github Link</a></span>
+  - <span style="font-size:0.9em">V 1.00 -<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017"> Github Link</a></span>
 - <span style="font-size:0.9em"><font  color="white">Binary Object Modules:<br> </font><a href="https://firmware.intel.com/projects/minnowboard-max ">firmware.intel.com</a></span>
-- <span style="font-size:0.9em">How to Build<a href="https://firmware.intel.com/sites/default/files/minnowboard_max-rel_0_98-releasenotes.txt"> Release Notes</a></span>
+- <span style="font-size:0.9em">How to Build<a href="https://firmware.intel.com/sites/default/files/minnowboard_max-rel_1_00-releasenotes.txt"> Release Notes</a></span>
 
 Note:
 - Step by step if NOT downloading Lab release of Minnowboard MAX/Turbot 
@@ -439,9 +437,9 @@ Note:
 <p align="left"><span class="gold" >Where to get Open Source<BR> MinnowBoard Max</span></p>
 <br>
 - <span style="font-size:0.9em"><font  color="white">Open Source </font><a href="https://github.com/tianocore/tianocore.github.io/wiki/MinnowBoardMax"> Max Wiki</a></span>
-  - <span style="font-size:0.9em">V.98 -<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017"> Github Link</a></span>
+  - <span style="font-size:0.9em">V 1.00 -<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017"> Github Link</a></span>
 - <span style="font-size:0.9em"><font  color="Yellow">Binary Object Modules:<br> </font><a href="https://firmware.intel.com/projects/minnowboard-max ">firmware.intel.com</a></span>
-- <span style="font-size:0.9em">How to Build<a href="https://firmware.intel.com/sites/default/files/minnowboard_max-rel_0_98-releasenotes.txt"> Release Notes</a></span>
+- <span style="font-size:0.9em">How to Build<a href="https://firmware.intel.com/sites/default/files/minnowboard_max-rel_1_00-releasenotes.txt"> Release Notes</a></span>
 
 Note:
 - Step by step if NOT downloading Lab release of Minnowboard MAX/Turbot 
@@ -449,21 +447,22 @@ Note:
 ---
 @title[Download MinnowBoard MAX Lab Source]
 ### <p align="right"><span class="gold" >Download MAX Lab Source</span></p>
-<span style="font-size:0.9em" >Download the PlatformBuildLab_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/Laurie0131/PlatformBuildLab_FW/archive/master.zip">github.com PlatformBuildLab_FW.zip</a></span><br>
+<span style="font-size:0.9em" >Download the PlatformBuildLab_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/tianocore-training/PlatformBuildLab_FW/archive/master.zip">github.com PlatformBuildLab_FW.zip</a></span><br>
 <br>
 <span style="font-size:0.9em" >OR<br>Use `git clone` to download the PlatformBuildLab_FW<span>
 ```
-$ git clone https://github.com/Laurie0131/PlatformBuildLab_FW.git
+$ git clone https://github.com/tianocore-training/PlatformBuildLab_FW.git
 ```
 <span style="font-size:0.9em" >Directory PlatformBuildLab_FW will be created</span>
 ```
    FW 
     - PlatformBuildLab
-       - asl				- Asl Compiler 
-       - FTDI-Driver		- Serial / USB cable 
-       - Max                - Minnowboard Max Source for the Labs
+       - asl				                    - Asl Compiler 
+       - FTDI-Driver		                    - Serial / USB cable 
+       - Max                                    - Minnowboard Max Source 
        - MinnowBoard.MAX.FirmwareUpdateX64.efi  - UEFI App to flash
-	   - TeraTerm			- Terminal app
+	   - TeraTerm			                    - Terminal app
+	   
 	   . . .
 ```
 
@@ -513,7 +512,7 @@ Note:
 
 ---
 @title[Steps to Build & Install Firmware]
-<br><br>
+<br>
 ### <p align="center"><span class="gold" >Steps to Build & Install Firmware</span></p>
 <ol>
   <li><span style="font-size:0.9em">Open VS Command prompt </span></li>
@@ -525,7 +524,7 @@ Note:
 </ol>
 <br>
 <br>
-<span style="font-size:0.8em"><font color="yellow"><i>Next slides will follow the above steps</i></font></span>
+<span style="font-size:0.9em"><font color="yellow"><i><b>Next slides will follow the above steps</b></i></font></span>
 
 
 Note:
@@ -535,7 +534,7 @@ Slide says it all
 ---?image=/assets/images/slides/Slide41.JPG
 @title[Open a VS Command Prompt]
 ### <p align="right"><span class="gold" >Open a VS Command Prompt </span></p>
-<span style="font-size:0.9em">Follow Steps from <a href="https://gitpitch.com/Laurie0131/Platform_Build_Win_Lab/master#/2">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>Open a Visual Studio Command Prompt<span>
+<span style="font-size:0.9em">Follow Steps from <a href="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/2">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>Open a Visual Studio Command Prompt<span>
 
 
 Note:
@@ -658,13 +657,13 @@ Note:
 ---?image=/assets/images/slides/Slide55_1.JPG
 @title[Flash onto the MinnowBoard MAX]
 ### <p align="right"><span class="gold" >Flasing the New BIOS</span></p>
-1.  <span style="font-size:0.85em" >Access Max Binary image file from build folder</span>
+1.  <span style="font-size:0.85em" >&nbsp;&nbsp;Access Max Binary image file from build folder</span>
   - <span style="font-size:0.75em" >`C:/fw/Max/Vlv2TbltDevicePkg/Stitch`</span>
   - <span style="font-size:0.75em" >DEBUG 	MNW2MAX1.X64.D01.0098._date_.bin</span>
   - <span style="font-size:0.75em" >RELEASE	MNW2MAX1.X64.R01.0098._date_.bin</span>
-2. <span style="font-size:0.85em" >Copy BIN files to a USB Thumb drive</span>
-3. <span style="font-size:0.85em" >Copy </span><span style="font-size:0.65em" >`MinnowBoard.MAX.FirmwareUpdateX64.efi`</span><span style="font-size:0.85em" > to a USB thumb drive from `$.../FW/PlatformBuildLab`</span>
-4. <span style="font-size:0.85em" >Boot to UEFI Shell on Max and type "`FS0:`"</span>
+2. <span style="font-size:0.85em" >&nbsp;&nbsp;Copy BIN files to a USB Thumb drive</span>
+3. <span style="font-size:0.85em" >&nbsp;&nbsp;Copy </span><span style="font-size:0.65em" >`MinnowBoard.MAX.FirmwareUpdateX64.efi`</span><span style="font-size:0.85em" > to a USB thumb &nbsp;&nbsp;drive from `$.../FW/PlatformBuildLab`</span>
+4. <span style="font-size:0.85em" >&nbsp;&nbsp;Boot to UEFI Shell on Max and type "`FS0:`"</span>
 
  
 Note:
@@ -682,7 +681,7 @@ Note:
 @title[Flash onto the MinnowBoard MAX 02]
 ### <p align="right"><span class="gold" >Flashing the New BIOS</span></p>
 
-<p style="line-height:70%"><span style="font-size:0.85em" >5.  Run update `.efi` utility with either BIN file </span> <span style="font-size:0.65em" >&lpar;<i>Note</i> the “TAB” Key will fill out the command line for you &rpar;</span></p>
+<p style="line-height:70%"><span style="font-size:0.85em" >5.  &nbsp;&nbsp;Run update `.efi` utility with either BIN file </span> <span style="font-size:0.65em" >&lpar;<i>Note</i> the “TAB” Key will &nbsp;&nbsp;fill out the command line for you &rpar;</span></p>
 
 ```
 FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bin
@@ -697,7 +696,7 @@ FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bi
 <br>
 <br>
 <br>
-<p style="line-height:70%"><span style="font-size:0.85em" >6. Reset and boot new firmware</span></p>
+<p style="line-height:70%"><span style="font-size:0.85em" >6. &nbsp;&nbsp;Reset and boot new firmware</span></p>
 
  
 Note:
