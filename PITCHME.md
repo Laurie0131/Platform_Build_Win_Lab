@@ -632,12 +632,12 @@ Note:
 @title[Flash onto the MinnowBoard MAX]
 ### <p align="right"><span class="gold" >Flasing the New BIOS</span></p>
 1.  Access Max Binary image file from build folder
-  - `C:/fw/Max/Vlv2TbltDevicePkg/Stitch`
-  - DEBUG 	MNW2MAX1.X64.D01.0098._date_.bin
-  - RELEASE	MNW2MAX1.X64.R01.0098._date_.bin
+  - <span style="font-size:0.75em" >`C:/fw/Max/Vlv2TbltDevicePkg/Stitch`</span>
+  - <span style="font-size:0.75em" >DEBUG 	MNW2MAX1.X64.D01.0098._date_.bin</span>
+  - <span style="font-size:0.75em" >RELEASE	MNW2MAX1.X64.R01.0098._date_.bin</span>
 2. Copy BIN files to a USB Thumb drive
-3. Copy MinnowBoard.MAX.FirmwareUpdateX64.efi to a USB thumb drive from $.../FW/PlatformBuildLab
-4. Boot to UEFI Shell on Max and type "FS0:"
+3. Copy `MinnowBoard.MAX.FirmwareUpdateX64.efi` to a USB thumb drive from `$.../FW/PlatformBuildLab`
+4. Boot to UEFI Shell on Max and type "`FS0:`"
 
  
 Note:
@@ -655,16 +655,19 @@ Note:
 @title[Flash onto the MinnowBoard MAX 02]
 ### <p align="right"><span class="gold" >Flashing the New BIOS</span></p>
 
-5. Run update .efi utility with either BIN file  (Note the “TAB” Key will fill out the command line for you 
+<p style="line-height:70%">5.  Run update .efi utility with either BIN file  <span style="font-size:0.75em" >(Note the “TAB” Key will fill out the command line for you )</span></p>
 ```
 FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bin
 ```
-Wait for thenew firmware update to finish
+<span style="font-size:0.85em" >Wait for thenew firmware update to finish</span>
 <br>
 <br>
 <br>
 <br>
-6. Reset and boot new firmware
+<br>
+<br>
+<p style="line-height:70%">6. Reset and boot new firmware</p>
+
  
 Note:
 5. Run update .efi utility with either BIN file  (Note the “TAB” Key will fill out the command line for you 
@@ -679,9 +682,9 @@ FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bi
 @title[Verify after Firmware Update]
 ### <p align="right"><span class="gold" >Verify after Firmware Update</span></p>
 
-- Verify that the Firmware was updated by checking the Date
-- At the shell prompt type “exit”
-- The EDK II front page will show the BIOS ID with Date/time stamp
+- <span style="font-size:0.85em" >Verify that the Firmware was updated by checking the Date</span>
+- <span style="font-size:0.85em" >At the shell prompt type “exit”</span>
+- <span style="font-size:0.85em" >The EDK II front page will show the BIOS ID with Date/time stamp</span>
  
 Note:
 
