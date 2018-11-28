@@ -631,13 +631,13 @@ Note:
 ---?image=/assets/images/slides/Slide55_1.JPG
 @title[Flash onto the MinnowBoard MAX]
 ### <p align="right"><span class="gold" >Flasing the New BIOS</span></p>
-1.  Access Max Binary image file from build folder
+1.  <span style="font-size:0.85em" >Access Max Binary image file from build folder</span>
   - <span style="font-size:0.75em" >`C:/fw/Max/Vlv2TbltDevicePkg/Stitch`</span>
   - <span style="font-size:0.75em" >DEBUG 	MNW2MAX1.X64.D01.0098._date_.bin</span>
   - <span style="font-size:0.75em" >RELEASE	MNW2MAX1.X64.R01.0098._date_.bin</span>
-2. Copy BIN files to a USB Thumb drive
-3. Copy `MinnowBoard.MAX.FirmwareUpdateX64.efi` to a USB thumb drive from `$.../FW/PlatformBuildLab`
-4. Boot to UEFI Shell on Max and type "`FS0:`"
+2. <span style="font-size:0.85em" >Copy BIN files to a USB Thumb drive</span>
+3. <span style="font-size:0.85em" >Copy </span><span style="font-size:0.65em" >`MinnowBoard.MAX.FirmwareUpdateX64.efi`</span><span style="font-size:0.85em" > to a USB thumb drive from `$.../FW/PlatformBuildLab`</span>
+4. <span style="font-size:0.85em" >Boot to UEFI Shell on Max and type "`FS0:`"</span>
 
  
 Note:
@@ -659,7 +659,8 @@ Note:
 ```
 FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bin
 ```
-<span style="font-size:0.85em" >Wait for thenew firmware update to finish</span>
+
+<span style="font-size:0.85em" >Wait for the new firmware update to finish</span>
 <br>
 <br>
 <br>
