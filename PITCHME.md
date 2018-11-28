@@ -655,13 +655,13 @@ Note:
 @title[Flash onto the MinnowBoard MAX 02]
 ### <p align="right"><span class="gold" >Flashing the New BIOS</span></p>
 
-<p style="line-height:70%">5.  Run update .efi utility with either BIN file  <span style="font-size:0.75em" >(Note the “TAB” Key will fill out the command line for you )</span></p>
+<p style="line-height:70%"><span style="font-size:0.85em" >5.  Run update .efi utility with either BIN file </span> <span style="font-size:0.75em" ><i>Note</i> the “TAB” Key will fill out the command line for you </span></p>
+
 ```
 FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bin
 ```
-
-<span style="font-size:0.85em" >Wait for the new firmware update to finish</span>
 <br>
+<span style="font-size:0.85em" >Wait for the new firmware update to finish</span>
 <br>
 <br>
 <br>
