@@ -141,17 +141,12 @@ Note:
 ```
   C:\WS> git clone https://github.com/tianocore/edk2.git
   C:\WS> git clone https://github.com/tianocore/edk2-BaseTools-win32.git
+
   
   C:\WS>  set EDK_TOOLS_BIN=c:\WS\edk2-BaseTools-win32
 ```
 
-<span style="font-size:0.7em" >@color[yellow](NOTE:) Lab Material will have a different “edk2” </span>
-
-
-
----?image=/assets/images/slides/Slide11.JPG
-@title[Optional - Downloading the Edk II Source]
-<p align="right"><span class="gold" >Download the Edk II Source<br><i>- Optional</i></span></p>
+<span style="font-size:0.7em" ><b>@color[yellow](NOTE:)</b> Lab Material will have a different “edk2” </span>
 
 
 Note:
@@ -176,6 +171,8 @@ OPTIONAL - Open a  “git” command prompt and create a source working director
 
 - NOTE: Lab Material will have a different “edk2”
 
+---
+blank page
 
 ---?image=assets/images/binary-strings-black2.jpg
 @title[Setup Lab Material sub Section]
@@ -186,11 +183,11 @@ OPTIONAL - Open a  “git” command prompt and create a source working director
 ---
 @title[Download Lab_Material_FW -getting the Source ]
 ### <p align="right"><span class="gold" >Download Lab Material</span><br></span></p>
-<span style="font-size:0.9em" >Download the Lab_Material_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/Laurie0131/Lab_Material_FW/archive/master.zip">github.com Lab_Matrial_FW.zip</a></span><br>
+<span style="font-size:0.9em" >Download the Lab_Material_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/tianocore-training/Lab_Material_FW/archive/master.zip">github.com Lab_Matrial_FW.zip</a></span><br>
 <br>
 <span style="font-size:0.9em" >OR<br>Use `git clone` to download the Lab_Material_FW<span>
 ```
-$ git clone https://github.com/Laurie0131/Lab_Material_FW.git
+$ git clone https://github.com/tianocore-training/Lab_Material_FW.git
 ```
 <span style="font-size:0.9em" >Directory Lab_Material_FW will be created</span>
 ```
@@ -207,7 +204,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide14.JPG
 @title[Build Nt32 Edk2 -getting the Source ]
-### <p align="right"><span class="gold" >Build EDK II Nt32</span><br></span></p>
+### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Extract the Source</font></span></p>
 
 Note:
@@ -215,7 +212,7 @@ Extract the Downloaded Lab_Material_FW.zip to Home (this will create a directory
 
 ---?image=/assets/images/slides/Slide15.JPG
 @title[Build Nt32 Edk2 -getting the Source 02]
-### <p align="right"><span class="gold" >Build EDK II Nt32</span><br></span></p>
+### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">– Copy `edk2`</font></span></p>
 
 
@@ -227,7 +224,7 @@ Note:
 
 ---?image=/assets/images/slides/Slide16.JPG
 @title[Build Nt32 Edk2 -get Nasm]
-### <p align="right"><span class="gold" >Build EDK II Nt32</span><br></span></p>
+### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Get Nasm</font></span></p>
 
 
