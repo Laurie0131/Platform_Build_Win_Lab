@@ -124,24 +124,31 @@ Note:
 
 
 <i>OPTIONAL</i> - Open a  “git” command prompt and create a source working directory
-<pre>
-- C:\>mkdir WS
-- C:\> cd WS
+```
+ C:\>mkdir WS
+ C:\> cd WS
+```
 
-- OPTIONAL - Internet Proxies – (company Firewall used for example)
+<span style="font-size:0.8em" >OPTIONAL - Internet Proxies – (company Firewall used for example)</span>
 
-- C:\WS> git config --global https.proxy <proxyname>.domain.com:<port>
-- C:\WS> git config --global http.proxy <proxyname>.domain.com:<port>
+```
+ C:\WS> git config --global https.proxy <proxyname>.domain.com:<port>
+ C:\WS> git config --global http.proxy <proxyname>.domain.com:<port>
+```
 
-- OPTIONAL - Download edk2 source tree using Git command prompt
-- C:\WS> git clone https://github.com/tianocore/edk2.git
-- C:\WS> git clone https://github.com/tianocore/edk2-BaseTools-win32.git
+<span style="font-size:0.8em" >OPTIONAL - Download edk2 source tree using Git command prompt</span>
 
-- OPTIONAL - Build the tools
-- C:\WS>  set EDK_TOOLS_BIN=c:\WS\edk2-BaseTools-win32
-</pre>
+```
+ C:\WS> git clone https://github.com/tianocore/edk2.git
+ C:\WS> git clone https://github.com/tianocore/edk2-BaseTools-win32.git
+```
 
-- @color[yellow](NOTE:) Lab Material will have a different “edk2”
+<span style="font-size:0.8em" >OPTIONAL - Build the tools</span>
+```
+ C:\WS>  set EDK_TOOLS_BIN=c:\WS\edk2-BaseTools-win32
+```
+
+<span style="font-size:0.7em" >@color[yellow](NOTE:) Lab Material will have a different “edk2” </span>
 
 
 
