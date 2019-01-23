@@ -431,10 +431,12 @@ Note:
 ### <p align="right"><span class="gold" >Invoke Nt32 Emulation</span></p>
 @snap[north-west span-45 ]
 <br>
+<br>
 <p style="line-height:80%" align="left"><span style="font-size:0.8em" >From the command prompt<br><br></span>
-&nbsp;&nbsp;<font face="Consolas"><span style="background-color: #000000; font-size:0.50em; ">
+&nbsp;&nbsp;<font face="Consolas"><span style="background-color: #000000; font-size:0.55em; ">
 &nbsp;&nbsp;C:\FW\edk2&gt;  Build Run &nbsp;&nbsp;</span></font></p>
-
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.6em" > Notice 2 "UGA Window n" are opened </span></p>
 @snapend
 
 
