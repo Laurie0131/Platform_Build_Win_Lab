@@ -345,10 +345,54 @@ Copy the  `Nasm` directory to `C:\`
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>
 
 
----?image=/assets/images/slides/Slide18.JPG
+---?image=/assets/images/slides2/Slide18.JPG
 @title[Build Nt32 Edk2 -update target.txt]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
+
+
+@snap[north-east span-50 ]
+<br>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Update Target.txt</font></span></p>
+@snapend
+
+@snap[north-west span-100 ]
+<br>
+<br>
+
+<p style="line-height:80%" align="left">@size[1.10em](Nt32Pkg)<span style="font-size:0.80em;  " > - Build with edk2<br>
+Invoke `Edksetup.bat`
+</span></p>
+<pre>
+```
+
+  C:\> cd FW/edk2
+  C:\FW\edk2> edksetup.bat
+
+```
+</pre>
+
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+Edit the file "`Conf/target.txt`" &lpar;change `TOOL_CHAIN_TAG`%rpar; <br>
+`notepad Conf/target.txt</span></p>
+<br>
+@snapend
+
+@snap[south-west span-100 ]
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+Save and Exit <br>
+Build Nt32Pkg
+</span></p>
+<pre>
+```
+
+  C:\> cd FW/edk2
+  C:\FW\edk2> build -D BUILD_NEW_SHELL
+
+```
+</pre>
+
+@snapend
+
 
 Note:
 - `$ Cd C:/fw/edk2`
