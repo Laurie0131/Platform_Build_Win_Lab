@@ -513,11 +513,13 @@ Note:
 </ul>
 
 
-<p style="line-height:60%"><span style="font-size:0.6em">Connect the USB w/ 6 pin header to SUT (MAX) </span> </p>
-<p style="line-height:60%"><span style="font-size:0.6em">Connect the USB Type A connector to Host (Laptop) </span> </p>
-<p style="line-height:60%"><span style="font-size:0.6em">On your Host  <b>Go</b> to the "<b>Device Manager</b>" in the control panel </span> </p>
-<p style="line-height:60%"><span style="font-size:0.6em">Under the "<b>Other devices</b>" category you will see a yellow  @fa[exclamation-triangle gp-bullet-yellow ]   with a warning icon next to it.  </span> </p>
-<p style="line-height:60%"><span style="font-size:0.6em">You may already have this driver installed if you do not see a @fa[exclamation-triangle gp-bullet-yellow ]   warning under "<b>Other devices</b>" </span> </p>
+<p style="line-height:60%"><span style="font-size:0.6em">
+Connect the USB w/ 6 pin header to SUT (MAX) <br>
+Connect the USB Type A connector to Host (Laptop) <br>
+On your Host  <b>Go</b> to the "<b>Device Manager</b>" in the control panel <br>
+Under the "<b>Other devices</b>" category you will see a yellow  @fa[exclamation-triangle gp-bullet-gold ]   with a warning icon next to it.  <br>
+You may already have this driver installed if you do not see a @fa[exclamation-triangle gp-bullet-gold ]   warning under "<b>Other devices</b>" 
+</span> </p>
 @snapend
 
 Note:
@@ -545,9 +547,14 @@ Note:
 @snap[north-west span-80 ]
 <br>
 <br>
-<p style="line-height:80%"><span style="font-size:0.7em">
-Right click yellow  @fa[exclamation-triangle gp-bullet-yellow ]   and select "Update Driver Software“ from the Device Manager menu 
-
+<p style="line-height:60%"><span style="font-size:0.6em">
+Right click yellow  @fa[exclamation-triangle gp-bullet-gold ]   and select "Update Driver Software" from the <b>Device Manager menu</b> <br>
+Select "Browse my computer for driver software" <br>
+Click the <b>Browse</b>  button – Click on "Include subfolders"<br>
+Browse to the location of the folder you unzipped earlier for the FTDI driver<br>
+Click on the folder and press <b>OK</b><br>
+Press <b>Next</b><br>
+Driver will be installed
 </span> </p>
 @snapend
 
@@ -562,10 +569,32 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide28.JPG
+---?image=/assets/images/slides2/Slide28.JPG
 @title[Setup TeraTerm]
-### <p align="right"><span class="gold" >Setup TeraTerm</span></p>
+<p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Setup TeraTerm</b>)</span></p>
+@snap[north-west span-35 ]
+<br>
+<br>
+<p style="line-height:60%"><span style="font-size:0.6em">
+Unzip and Install TeraTerm<br>
+Open TeraTerm Software<br>
+Select the serial port assigned
+</span></p>
+@snapend
 
+
+@snap[south-east span-35 ]
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.6em">
+Go to <b>Setup-&gt; Serial Port</b> and set the following:<br>
+  - Baud: 115200<br>
+  - Parity: None<br>
+  - Data Bits: 8<br>
+  - Stop Bits: 1<br>
+  - Flow Control: Xon/Xoff
+</span></p>
+@snapend
 
 Note:
 - Unzip and Install TeraTerm
@@ -580,10 +609,18 @@ Note:
   - Flow Control: Xon/Xoff
 
 
----?image=/assets/images/slides/Slide29.JPG
+---?image=/assets/images/slides2/Slide29.JPG
 @title[Power on MinnowBoard MAX]
-### <p align="right"><span class="gold" >Power on MinnowBoard MAX</span></p>
-
+<p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Power on MinnowBoard MAX</b>)</span></p>
+@snap[north-west span-100 ]
+<br>
+<br>
+<p style="line-height:60%"><span style="font-size:0.6em">
+Connect the Power supply cable to the MinnowBoard  MAX
+<br>
+MinnowBoard MAX should boot to the UEFI Shell in the TeraTerm window.
+</span></p>
+@snapend
 
 Note:
 - Connect the Power supply cable to the MinnowBoard  MAX
