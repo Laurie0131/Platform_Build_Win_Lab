@@ -68,11 +68,15 @@ Note:
 
 @snap[north-east span-25 fragment]
 <br>
-<p style="line-height:40%">@fa[windows gp-bullet-cyan]<BR><span style="font-size:0.450em;  " >Windows 10 </span></p>
+<br>
+<p style="line-height:40%" align="center">@fa[windows gp-bullet-cyan]<BR><span style="font-size:0.450em;  " >Windows 10 </span></p>
 <br>
 @snapend
 
-@snap[north-east span-45 fragment]
+@snap[north-east span-60 fragment]
+<br>
+<br>
+<br>
 <br>
 <br>
 <p style="line-height:40%" align="left"><span style="font-size:0.80em;  " >Steps to Pin Visual Studio Command Prompt to task bar for Windows 10 </span></p>
