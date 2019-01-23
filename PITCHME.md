@@ -153,10 +153,20 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide8.JPG
+---?image=/assets/images/slides2/Slide8.JPG
 @title[Pin VS CMD Prompt 05]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
 
+@snap[north-east span-40 ]
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >8. Open the VS Command Prompt </span></p>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+All Windows Labs use this short-cut to Build Edk II platforms and projects using Windows Visual Studio :<br>
+2010 / 2012 / 2013 / 2015 or 2017</span></p>
+@snapend
 Note:
 
 
