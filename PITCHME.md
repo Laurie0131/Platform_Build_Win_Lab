@@ -388,7 +388,6 @@ Build Nt32Pkg
 
 ```
 </pre>
-<br>
 @snapend
 
 
