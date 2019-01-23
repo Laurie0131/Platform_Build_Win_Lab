@@ -157,7 +157,7 @@ Note:
 @title[Pin VS CMD Prompt 05]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
 
-@snap[north-east span-40 ]
+@snap[north-east span-50 ]
 <br>
 <br>
 <br>
