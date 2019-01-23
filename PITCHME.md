@@ -505,7 +505,6 @@ Note:
 @snap[north-west span-60 ]
 <br>
 <br>
-<br>
 <p style="line-height:50%"><span style="font-size:0.7em"><b>Hardware:</b></span></p>
 <ul style="list-style-type:none; line-height:0.5;">
   <li><span style="font-size:0.5em">- System Under Test (SUT) - MinnowBoard Max  </span>  </li>
@@ -545,7 +544,7 @@ Note:
 ---?image=/assets/images/slides2/Slide27.JPG
 @title[Setup COM port on Host]
 <p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Setup COM port on Host</b>)</span></p>
-<p style="line-height:40%"><span style="font-size:0.6em"> &bull; Right click yellow  @fa[exclamation-triangle gp-bullet-gold ]   and select "Update Driver Software" from the <b>Device Manager menu</b></span></p>
+<p style="line-height:40%"><span style="font-size:0.6em"><br> &bull; Right click yellow  @fa[exclamation-triangle gp-bullet-gold ]   and select "Update Driver Software" from the <b>Device Manager menu</b></span></p>
 
 @snap[north-west span-75 ]
 <br>
@@ -561,9 +560,13 @@ Note:
 
 @snap[south-west span-20 ]
 <p style="line-height:50%"><span style="font-size:0.6em">
-Press <b>Next</b><br>
+&bull; Press <b>Next</b><br>
 Driver will be installed
 </span> </p>
+<br>
+<br>
+<br>
+<br>
 @snapend
 
 Note:
