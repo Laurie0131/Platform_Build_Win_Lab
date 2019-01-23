@@ -459,9 +459,9 @@ Note:
 ---?image=/assets/images/slides2/Slide23.JPG
 @title[MAX/Turbot HW]
 ### <p align="right"><span class="gold" >EDK II Platform (MinnowBoard MAX/Turbot)</span></p>
-@snap[south-west span-30 ]
+@snap[south-west span-45 ]
 <br>
-<p style="line-height:70%" align="left"><span style="font-size:0.6em" >Intel<sup>&reg;</sup> Atom processor E3800 Series<br> &lpar;Formerly Bay Trail-I&rpar;</span></p>
+<p style="line-height:60%" align="left"><span style="font-size:0.6em" >Intel<sup>&reg;</sup> Atom processor E3800 Series<br> &lpar;Formerly Bay Trail-I&rpar;</span></p>
 @snapend
 Note:
 
@@ -475,7 +475,8 @@ This lab shows the build process for an actual platform – Minnowboard.org
 ### <p align="right"><span class="gold" >MinnowBoard  MAX Workshop Lab Hardware</span></p>
 @snap[south span-100 ]
 <br>
-<p style="line-height:80%" ><span style="background-color: #FFFFFF; font-size:0.60em; "> <font color="red"><b>**Warning</b> do not use any other power supply than 5V or the board will Fry</font></span></p>
+<p style="line-height:80%" ><span style="background-color: #FFFFFF; font-size:0.60em; "> <font color="red">&nbsp;<b>**Warning</b> do not use any other power supply than 5V or the board will Fry&nbsp;&nbsp;</font></span></p>
+<br>
 @snapend
 Note:
 
