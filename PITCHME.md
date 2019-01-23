@@ -456,10 +456,13 @@ Note:
 ## <span class="gold"  >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lab 2: Platform HW Setup</span>
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Setup hardware for MinnowBoard Max/Turbot </span>
 
----?image=/assets/images/slides/Slide23.JPG
+---?image=/assets/images/slides2/Slide23.JPG
 @title[MAX/Turbot HW]
 ### <p align="right"><span class="gold" >EDK II Platform (MinnowBoard MAX/Turbot)</span></p>
-
+@snap[south-west span-30 ]
+<br>
+<p align="left"><span style="font-size:0.6em" >Intel<sup>&reg;</sup> Atom processor E3800 Series<br> &lpar;Formerly Bay Trail-I&lpar;</span></p>
+@snapend
 Note:
 
 This lab shows the build process for an actual platform – Minnowboard.org
@@ -467,10 +470,13 @@ This lab shows the build process for an actual platform – Minnowboard.org
 - Using Tianocore source
 - Open source EDK II plus open source binary obj. packages
 
----?image=/assets/images/slides/Slide24.JPG
+---?image=/assets/images/slides2/Slide24.JPG
 @title[Workshop Lab Hardware]
 ### <p align="right"><span class="gold" >MinnowBoard  MAX Workshop Lab Hardware</span></p>
-
+@snap[south span-100 ]
+<br>
+@box[bg-white text-white my-box-pad2  ]<p style="line-height:80%" ><span style="font-size:0.7em" ><font color="red">**Warning do not use any other power supply than 5V or the board will Fry</font></span></p>)
+@snapend
 Note:
 
 **Warning do not use any other power supply than 5V or the board will Fry
