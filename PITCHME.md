@@ -506,18 +506,18 @@ Note:
 <br>
 <br>
 <p style="line-height:80%"><span style="font-size:0.7em">Hardware: </span> </p>
-<ul style="list-style-type:disc; line-height:0.6;">
-  <li><span style="font-size:0.6em">System Under Test (SUT) - MinnowBoard Max  </span>  </li>
-  <li><span style="font-size:0.6em">USB to 3.3V TTL Cable  (6 pin to USB Type A) </span>  </li>
-  <li><span style="font-size:0.6em">5V power supply </span>  </li>
+<ul style="list-style-type:disc; line-height:0.5;">
+  <li><span style="font-size:0.5em">System Under Test (SUT) - MinnowBoard Max  </span>  </li>
+  <li><span style="font-size:0.5em">USB to 3.3V TTL Cable  (6 pin to USB Type A) </span>  </li>
+  <li><span style="font-size:0.5em">5V power supply </span>  </li>
 </ul>
 
 
-<p style="line-height:70%"><span style="font-size:0.7em">Connect the USB w/ 6 pin header to SUT (MAX) </span> </p>
-<p style="line-height:70%"><span style="font-size:0.7em">Connect the USB Type A connector to Host (Laptop) </span> </p>
-<p style="line-height:70%"><span style="font-size:0.7em">On your Host  <b>Go</b> to the "<b>Device Manager</b>" in the control panel </span> </p>
-<p style="line-height:70%"><span style="font-size:0.7em">Under the "<b>Other devices</b>" category you will see a yellow  @fa[exclamation-triangle gp-bullet-yellow ]   with a warning icon next to it.  </span> </p>
-<p style="line-height:70%"><span style="font-size:0.7em">You may already have this driver installed if you do not see a @fa[exclamation-triangle gp-bullet-yellow ]   warning under "<b>Other devices</b>" </span> </p>
+<p style="line-height:60%"><span style="font-size:0.6em">Connect the USB w/ 6 pin header to SUT (MAX) </span> </p>
+<p style="line-height:60%"><span style="font-size:0.6em">Connect the USB Type A connector to Host (Laptop) </span> </p>
+<p style="line-height:60%"><span style="font-size:0.6em">On your Host  <b>Go</b> to the "<b>Device Manager</b>" in the control panel </span> </p>
+<p style="line-height:60%"><span style="font-size:0.6em">Under the "<b>Other devices</b>" category you will see a yellow  @fa[exclamation-triangle gp-bullet-yellow ]   with a warning icon next to it.  </span> </p>
+<p style="line-height:60%"><span style="font-size:0.6em">You may already have this driver installed if you do not see a @fa[exclamation-triangle gp-bullet-yellow ]   warning under "<b>Other devices</b>" </span> </p>
 @snapend
 
 Note:
