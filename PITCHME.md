@@ -504,20 +504,19 @@ Note:
 <p style="line-height:85%" align="right"><span class="gold" >@size[1.1em](<b>Setup MinnowBoard Max Test<br>System</b>)</span></p>
 @snap[north-west span-60 ]
 <br>
-<br>
-<p style="line-height:80%"><span style="font-size:0.7em">Hardware: </span> </p>
 <ul style="list-style-type:none; line-height:0.5;">
+  <li><span style="font-size:0.8em"><b>Hardware:</b></span>  </li>
   <li><span style="font-size:0.5em">- System Under Test (SUT) - MinnowBoard Max  </span>  </li>
   <li><span style="font-size:0.5em">- USB to 3.3V TTL Cable  (6 pin to USB Type A) </span>  </li>
   <li><span style="font-size:0.5em">- 5V power supply </span>  </li>
 </ul>
 
 
-<p style="line-height:60%"><span style="font-size:0.6em">
-Connect the USB w/ 6 pin header to SUT (MAX) <br>
-Connect the USB Type A connector to Host (Laptop) <br>
-On your Host  <b>Go</b> to the "<b>Device Manager</b>" in the control panel <br>
-Under the "<b>Other devices</b>" category you will see a yellow  @fa[exclamation-triangle gp-bullet-gold ]   with a warning icon next to it.  <br>
+<p style="line-height:50%"><span style="font-size:0.6em">
+Connect the USB w/ 6 pin header to SUT (MAX) <br><br>
+Connect the USB Type A connector to Host (Laptop) <br><br>
+On your Host  <b>Go</b> to the "<b>Device Manager</b>" in the control panel <br><br>
+Under the "<b>Other devices</b>" category you will see a yellow  @fa[exclamation-triangle gp-bullet-gold ]   with a warning icon next to it.  <br><br>
 You may already have this driver installed if you do not see a @fa[exclamation-triangle gp-bullet-gold ]   warning under "<b>Other devices</b>" 
 </span> </p>
 @snapend
@@ -544,14 +543,14 @@ Note:
 ---?image=/assets/images/slides2/Slide27.JPG
 @title[Setup COM port on Host]
 <p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Setup COM port on Host</b>)</span></p>
-<p style="line-height:60%"><span style="font-size:0.6em">
-Right click yellow  @fa[exclamation-triangle gp-bullet-gold ]   and select "Update Driver Software" from the <b>Device Manager menu</b>
+<p style="line-height:40%"><span style="font-size:0.6em">
+ - Right click yellow  @fa[exclamation-triangle gp-bullet-gold ]   and select "Update Driver Software" from the <b>Device Manager menu</b>
 </span></p>
 @snap[north-west span-75 ]
 <br>
 <br>
 <br>
-<p style="line-height:60%"><span style="font-size:0.6em">
+<p style="line-height:40%"><span style="font-size:0.6em">
  - Select "Browse my computer for driver software" <br><br>
  - Click the <b>Browse</b>  button – Click on "Include subfolders"<br><br>
  - Browse to the location of the folder for the FTDI driver<br><br>
@@ -559,11 +558,12 @@ Right click yellow  @fa[exclamation-triangle gp-bullet-gold ]   and select "Upda
 @snapend
 
 
-@snap[south-west span-25 ]
-<p style="line-height:60%"><span style="font-size:0.6em">
+@snap[south-west span-20 ]
+<p style="line-height:50%"><span style="font-size:0.6em">
 Press <b>Next</b><br>
 Driver will be installed
 </span> </p>
+<br>
 @snapend
 
 Note:
@@ -583,7 +583,7 @@ Note:
 @snap[north-west span-35 ]
 <br>
 <br>
-<p style="line-height:50%"><span style="font-size:0.6em">
+<p style="line-height:50%"><span style="font-size:0.7em">
 Unzip and Install TeraTerm<br><br>
 Open TeraTerm Software<br><br>
 Select the serial port assigned
@@ -591,11 +591,11 @@ Select the serial port assigned
 @snapend
 
 
-@snap[south-east span-45 ]
+@snap[south-east span-50 ]
 <br>
 <br>
 <p style="line-height:60%" align="left"><span style="font-size:0.6em">
-Go to <b>Setup -&gt; Serial Port</b> and set the following:<br>
+Go to <b>Setup &minus;&gt; Serial Port</b> and set the following:<br>
   - Baud: 115200<br>
   - Parity: None<br>
   - Data Bits: 8<br>
@@ -623,8 +623,9 @@ Note:
 @snap[north-west span-100 ]
 <br>
 <br>
-<p style="line-height:60%"><span style="font-size:0.6em">
+<p style="line-height:60%"><span style="font-size:0.8em">
 Connect the Power supply cable to the MinnowBoard  MAX
+<br>
 <br>
 MinnowBoard MAX should boot to the UEFI Shell in the TeraTerm window.
 </span></p>
