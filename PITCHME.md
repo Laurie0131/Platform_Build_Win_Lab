@@ -79,10 +79,11 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:40%" align="left"><span style="font-size:0.80em;  " >Steps to Pin Visual Studio Command Prompt to task bar for Windows 10 </span></p>
-<p style="line-height:40%" align="left"><span style="font-size:0.80em;  " >1. Using the Start menu in Windows 10, Left Click on "Windows Key" Lower Left @fa[windows gp-bullet-cyan]</span></p>
-<p style="line-height:40%" align="left"><span style="font-size:0.80em;  " >2. Scroll down from the scroll bar on the right until "Visual Studio 201@color[#e49436](<i>n</i>)" </span></p>
-<p style="line-height:40%" align="left"><span style="font-size:0.80em;  " >3. Left Click "Visual Studio 201@color[#e49436](<i>n</i>)"</span></p>
+<br>
+<p style="line-height:70%" align="left"><span style="font-size:0.80em;  " >Steps to Pin Visual Studio Command Prompt to task bar for Windows 10 </span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.80em;  " >1. Using the Start menu in Windows 10, Left Click on "Windows Key" Lower Left @fa[windows gp-bullet-cyan]</span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.80em;  " >2. Scroll down from the scroll bar on the right until "Visual Studio 201@color[#e49436](<i>n</i>)" </span></p>
+<p style="line-height:70%" align="left"><span style="font-size:0.80em;  " >3. Left Click "Visual Studio 201@color[#e49436](<i>n</i>)"</span></p>
 <br>
 @snapend
 
