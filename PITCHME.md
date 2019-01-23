@@ -501,15 +501,15 @@ Note:
 
 ---?image=/assets/images/slides2/Slide26.JPG
 @title[Setup MinnowBoard Max Test System]
-<p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Setup MinnowBoard Max Test</b><br>System)</span></p>
-@snap[north-west span-50 ]
+<p style="line-height:85%" align="right"><span class="gold" >@size[1.1em](<b>Setup MinnowBoard Max Test<br>System</b>)</span></p>
+@snap[north-west span-60 ]
 <br>
 <br>
 <p style="line-height:80%"><span style="font-size:0.7em">Hardware: </span> </p>
-<ul style="list-style-type:disc; line-height:0.5;">
-  <li><span style="font-size:0.5em">System Under Test (SUT) - MinnowBoard Max  </span>  </li>
-  <li><span style="font-size:0.5em">USB to 3.3V TTL Cable  (6 pin to USB Type A) </span>  </li>
-  <li><span style="font-size:0.5em">5V power supply </span>  </li>
+<ul style="list-style-type:none; line-height:0.5;">
+  <li><span style="font-size:0.5em">- System Under Test (SUT) - MinnowBoard Max  </span>  </li>
+  <li><span style="font-size:0.5em">- USB to 3.3V TTL Cable  (6 pin to USB Type A) </span>  </li>
+  <li><span style="font-size:0.5em">- 5V power supply </span>  </li>
 </ul>
 
 
@@ -544,15 +544,23 @@ Note:
 ---?image=/assets/images/slides2/Slide27.JPG
 @title[Setup COM port on Host]
 <p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Setup COM port on Host</b>)</span></p>
-@snap[north-west span-80 ]
+<p style="line-height:60%"><span style="font-size:0.6em">
+Right click yellow  @fa[exclamation-triangle gp-bullet-gold ]   and select "Update Driver Software" from the <b>Device Manager menu</b>
+</span></p>
+@snap[north-west span-75 ]
+<br>
 <br>
 <br>
 <p style="line-height:60%"><span style="font-size:0.6em">
-Right click yellow  @fa[exclamation-triangle gp-bullet-gold ]   and select "Update Driver Software" from the <b>Device Manager menu</b> <br>
-Select "Browse my computer for driver software" <br>
-Click the <b>Browse</b>  button – Click on "Include subfolders"<br>
-Browse to the location of the folder you unzipped earlier for the FTDI driver<br>
-Click on the folder and press <b>OK</b><br>
+ - Select "Browse my computer for driver software" <br><br>
+ - Click the <b>Browse</b>  button – Click on "Include subfolders"<br><br>
+ - Browse to the location of the folder for the FTDI driver<br><br>
+ - Click on the folder and press <b>OK</b>
+@snapend
+
+
+@snap[south-west span-25 ]
+<p style="line-height:60%"><span style="font-size:0.6em">
 Press <b>Next</b><br>
 Driver will be installed
 </span> </p>
@@ -575,19 +583,19 @@ Note:
 @snap[north-west span-35 ]
 <br>
 <br>
-<p style="line-height:60%"><span style="font-size:0.6em">
-Unzip and Install TeraTerm<br>
-Open TeraTerm Software<br>
+<p style="line-height:50%"><span style="font-size:0.6em">
+Unzip and Install TeraTerm<br><br>
+Open TeraTerm Software<br><br>
 Select the serial port assigned
 </span></p>
 @snapend
 
 
-@snap[south-east span-35 ]
+@snap[south-east span-45 ]
 <br>
 <br>
 <p style="line-height:60%" align="left"><span style="font-size:0.6em">
-Go to <b>Setup-&gt; Serial Port</b> and set the following:<br>
+Go to <b>Setup -&gt; Serial Port</b> and set the following:<br>
   - Baud: 115200<br>
   - Parity: None<br>
   - Data Bits: 8<br>
