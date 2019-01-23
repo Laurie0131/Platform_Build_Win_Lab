@@ -307,7 +307,7 @@ Extract the Downloaded Lab_Material_FW.zip to Home (this will create a directory
 2. Open a VS command prompt <br>
 3. Create a working space directory "FW" <br>&nbsp;&nbsp;<font face="Consolas"><span style="background-color: #000000; font-size:0.50em;"> 
 &nbsp;&nbsp;C:\&gt; mkdir FW&nbsp;&nbsp;</span></font><br>
-4. From the downloaded `Lab_Material_FW` folder, <b>copy</b>and <b>paste</b> folder "`...\edk2`" to `C:/FW`
+4. From the downloaded "`Lab_Material_FW`" folder, <b>copy</b>&nbsp;and &nbsp;<b>paste</b> folder &nbsp;"`...\edk2`"&nbsp; to &nbsp;`C:/FW`
 </span></p>
 <br>
 @snapend
@@ -333,7 +333,7 @@ Note:
 <br>
 <br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
-Copy `Nasm` to `C:\`
+Copy the  `Nasm` directory to `C:\`
 </span></p>
 <br>
 @snapend
