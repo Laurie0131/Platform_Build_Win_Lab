@@ -371,12 +371,12 @@ Invoke `Edksetup.bat`
 
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
 Edit the file "`Conf/target.txt`" </span><span style="font-size:0.50em;  " > <br>
-&lpar;change `TOOL_CHAIN_TAG`%rpar; </span></p>
+&lpar;change `TOOL_CHAIN_TAG`&rpar; &nbsp;&nbsp;`Notepad Conf/target.txt`</span></p>
 <br>
 @snapend
 
 @snap[south-west span-100 ]
-<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+<p style="line-height:90%" align="left"><span style="font-size:0.80em;  " >
 Save and Exit <br>
 Build Nt32Pkg
 </span></p>
@@ -387,7 +387,7 @@ Build Nt32Pkg
 
 ```
 </pre>
-
+<br>
 @snapend
 
 
