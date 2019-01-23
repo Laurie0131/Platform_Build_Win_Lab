@@ -654,20 +654,23 @@ Note:
 <span style="font-size:0.9em" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
 
 
-
----?image=/assets/images/slides/Slide32.JPG
-@title[MinnowBoard MAX/ Turbot Platform]
+---?image=/assets/images/slides2/Slide23.JPG
+@title[MAX/Turbot HW]
 ### <p align="right"><span class="gold" >EDK II Platform (MinnowBoard MAX/Turbot)</span></p>
-
-
+@snap[south-west span-45 ]
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.6em" >Intel<sup>&reg;</sup> Atom processor E3800 Series<br> &lpar;Formerly Bay Trail-I&rpar;</span></p>
+<br>
+@snapend
 Note:
+
 -  Intel® Atom processor E3800 Series  (Formerly Bay Trail-I)
 
 
 ---?image=/assets/images/slides/Slide33.JPG
 @title[MinnowBoard MAX/ Turbot Platform]
 <br>
-<p align="left"><span class="gold" >Where to get Open Source<BR> MinnowBoard Max</span></p>
+<p align="left"><span class="gold" ><b>Where to get Open Source<BR> MinnowBoard Max</b></span></p>
 <br>
 - <span style="font-size:0.9em"><font  color="yellow">Open Source </font><a href="https://github.com/tianocore/tianocore.github.io/wiki/MinnowBoardMax"> Max Wiki</a></span>
   - <span style="font-size:0.9em">V 1.00 -<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017"> Github Link</a></span>
@@ -680,7 +683,7 @@ Note:
 ---?image=/assets/images/slides/Slide34.JPG
 @title[MinnowBoard MAX/ Turbot Platform]
 <br>
-<p align="left"><span class="gold" >Where to get Open Source<BR> MinnowBoard Max</span></p>
+<p align="left"><span class="gold" ><b>Where to get Open Source<BR> MinnowBoard Max</b></span></p>
 <br>
 - <span style="font-size:0.9em"><font  color="white">Open Source </font><a href="https://github.com/tianocore/tianocore.github.io/wiki/MinnowBoardMax"> Max Wiki</a></span>
   - <span style="font-size:0.9em">V 1.00 -<a href="https://github.com/tianocore/edk2-platforms/tree/devel-MinnowBoardMax-UDK2017"> Github Link</a></span>
@@ -712,10 +715,48 @@ $ git clone https://github.com/tianocore-training/PlatformBuildLab_FW.git
 	   . . .
 ```
 
----?image=/assets/images/slides/Slide36.JPG
+Note:
+
+---?image=/assets/images/slides2/Slide36.JPG
 @title[MinnowBoard MAX Lab Setup]
 ### <p align="right"><span class="gold" >MinnowBoard MAX Lab Setup</span></p>
+@snap[north-west span-100 ]
+<br>
+<p style="line-height:60%"><span style="font-size:0.8em">
+@color[#87E2A9](Previous Lab Setup Requirements)<br></span>
+<span style="font-size:0.7em">
+NASM<br>
+&nbsp;Copy ... `Lab_Material_FW\FW\Nasm` to `C:\` <br>
+</span>
+<span style="font-size:0.8em">
+@color[#87E2A9](Additional Lab Setup -)<br>&nbsp;&nbsp;&nbsp;
+@color[#87E2A9]( `PlatformLab_FW/FW/PlatformBuildLab`) 
+</span></p>
 
+@snapend
+
+
+@snap[south-west span-25 ]
+<p style="line-height:40%" align="left"><span style="font-size:0.5em">
+Directories:<br>&nbsp;&nbsp;
+&bull;Max<br>&nbsp;&nbsp;
+&bull;asl<br>&nbsp;&nbsp;
+&bull;FTDI-Driver<br>&nbsp;&nbsp;
+&bull;Nasm<br>&nbsp;&nbsp;
+&bull;TeraTerm
+</snap></p>
+@snapend
+
+@snap[south-east span-75 ]
+<p style="line-height:40%" align="left"><span style="font-size:0.5em">
+<br>
+&hyphen;MinnowBoard Max Project source code<br>&nbsp;&nbsp;
+&hyphen;Iasl Assembler C:/asl directory<br>&nbsp;&nbsp;
+&hyphen;Driver for Seria/USB Uart cable<br>&nbsp;&nbsp;
+&hyphen;Nasm Assembly compiler- Same as previous lab<br>&nbsp;&nbsp;
+&hyphen;TeraTerm application
+</snap></p>
+@snapend
 
 Note:
 - NASM
