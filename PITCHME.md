@@ -269,18 +269,48 @@ $ git clone https://github.com/tianocore-training/Lab_Material_FW.git
 
 Note:
 
----?image=/assets/images/slides/Slide14.JPG
+---?image=/assets/images/slides2/Slide14.JPG
 @title[Build Nt32 Edk2 -getting the Source ]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
+@snap[north-east span-50 ]
+<br>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Extract the Source</font></span></p>
+@snapend
+
+@snap[north-west span-100 ]
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >1. Extract the Downloaded `Lab_Material_FW-master.zip` to `C:\` </span></p>
+<br>
+@snapend
+
+
+
+
+
 
 Note:
 Extract the Downloaded Lab_Material_FW.zip to Home (this will create a directory FW )
 
----?image=/assets/images/slides/Slide15.JPG
+---?image=/assets/images/slides2/Slide15.JPG
 @title[Build Nt32 Edk2 -getting the Source 02]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
+@snap[north-east span-50 ]
+<br>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">– Copy `edk2`</font></span></p>
+@snapend
+
+@snap[north-west span-100 ]
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+2. Open a VS command prompt <br>
+3. Create a working space directory "FW" <br>&nbsp;&nbsp;<font face="Consolas"><span style="background-color: #000000"> 
+&nbsp;&nbsp;C:\&gt; mkdir FW&nbsp;&nbsp;</span></font><br>
+4. From the downloaded `Lab_Material_FW` folder, <b>copy</b>and <b>paste</b> folder "`...\edk2`" to `C:/FW`
+</span></p>
+<br>
+@snapend
 
 
 Note:
@@ -289,11 +319,23 @@ Note:
    - `C:\> mkdir FW`
 - From the downloaded Lab_Material_FW folder, copy and paste folder “`..\edk2`” to `C:/FW`
 
----?image=/assets/images/slides/Slide16.JPG
+---?image=/assets/images/slides2/Slide16.JPG
 @title[Build Nt32 Edk2 -get Nasm]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
-<p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Get Nasm</font></span></p>
 
+@snap[north-east span-50 ]
+<br>
+<p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Get Nasm</font></span></p>
+@snapend
+
+@snap[north-west span-100 ]
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+Copy Name to `C:\`
+</span></p>
+<br>
+@snapend
 
 ---?image=assets/images/binary-strings-black2.jpg
 @title[Build Nt32 sub Section]
