@@ -723,15 +723,16 @@ Note:
 @snap[north-west span-70 ]
 <br>
 <br>
+<br>
 <p style="line-height:70%"><span style="font-size:0.8em">
 @color[#87E2A9](Previous Lab Setup Requirements)<br></span>
 <span style="font-size:0.6em">
 NASM<br>
-&nbsp;Copy ... `Lab_Material_FW\FW\Nasm` to `C:\` <br>
+&nbsp;Copy ... `Lab_Material_FW\FW\Nasm` to `C:\` <br><br><br><br>
 </span>
 <span style="font-size:0.8em">
 @color[#87E2A9](Additional Lab Setup -)</span><br>
-<span style="font-size:0.5em">&nbsp;&nbsp;&nbsp;
+<span style="font-size:0.6em">&nbsp;&nbsp;&nbsp;
 @color[#87E2A9]( `PlatformLab_FW/FW/PlatformBuildLab`) 
 </span></p>
 
@@ -739,8 +740,8 @@ NASM<br>
 
 
 @snap[south-west span-25 ]
-<p style="line-height:40%" align="left"><span style="font-size:0.5em">
-Directories:<br>&nbsp;&nbsp;
+<p style="line-height:40%" align="left"><span style="font-size:0.55em">
+<b>Directories:</b><br>&nbsp;&nbsp;
 &bull;Max<br>&nbsp;&nbsp;
 &bull;asl<br>&nbsp;&nbsp;
 &bull;FTDI-Driver<br>&nbsp;&nbsp;
@@ -751,11 +752,11 @@ Directories:<br>&nbsp;&nbsp;
 @snapend
 
 @snap[south-east span-80 ]
-<p style="line-height:40%" align="left"><span style="font-size:0.5em"><font color="yellow">
+<p style="line-height:40%" align="left"><span style="font-size:0.55em"><font color="yellow">
 <br>&nbsp;&nbsp;
 &hyphen;&nbsp;&nbsp;MinnowBoard Max Project source code<br>&nbsp;&nbsp;
 &hyphen;&nbsp;&nbsp;Iasl Assembler C:/asl directory<br>&nbsp;&nbsp;
-&hyphen;&nbsp;&nbsp;Driver for Seria/USB Uart cable<br>&nbsp;&nbsp;
+&hyphen;&nbsp;&nbsp;Driver for Serial/USB Uart cable<br>&nbsp;&nbsp;
 &hyphen;&nbsp;&nbsp;Nasm Assembly compiler- Same as previous lab<br>&nbsp;&nbsp;
 &hyphen;&nbsp;&nbsp;TeraTerm application
 </font></snap></p>
