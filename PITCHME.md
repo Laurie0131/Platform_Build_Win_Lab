@@ -558,11 +558,12 @@ Note:
 @snapend
 
 
-@snap[south-west span-20 ]
+@snap[south-west span-25 ]
 <p style="line-height:50%"><span style="font-size:0.6em">
 &bull; Press <b>Next</b><br>
-Driver will be installed
+&nbsp;&nbsp;Driver will be installed
 </span> </p>
+<br>
 <br>
 <br>
 <br>
