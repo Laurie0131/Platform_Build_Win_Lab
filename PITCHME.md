@@ -462,6 +462,7 @@ Note:
 @snap[south-west span-45 ]
 <br>
 <p style="line-height:60%" align="left"><span style="font-size:0.6em" >Intel<sup>&reg;</sup> Atom processor E3800 Series<br> &lpar;Formerly Bay Trail-I&rpar;</span></p>
+<br>
 @snapend
 Note:
 
