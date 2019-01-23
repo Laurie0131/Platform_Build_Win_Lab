@@ -418,15 +418,26 @@ Note:
 ---?image=/assets/images/slides/Slide19.JPG
 @title[Build Nt32 Edk2 -build inside VS Prompt]
 ### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
+@snap[north-east span-50 ]
+<br>
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Inside VS Prompt</font></span></p>
-
+@snapend
 Note:
 - 
 
 
----?image=/assets/images/slides/Slide20.JPG
+---?image=/assets/images/slides2/Slide20.JPG
 @title[Build Nt32 Edk2 -invoke Nt32]
 ### <p align="right"><span class="gold" >Invoke Nt32 Emulation</span></p>
+@snap[north-west span-45 ]
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.8em" >From the command prompt<br></span>
+&nbsp;&nbsp;<font face="Consolas"><span style="background-color: #000000; font-size:0.50em; "> &nbsp;&nbsp;
+&nbsp;&nbsp;C:\FW\edk2&gt;  Build Run &nbsp;&nbsp;</span></font></p>
+
+@snapend
+
 
 
 Note:
