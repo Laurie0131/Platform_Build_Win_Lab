@@ -552,13 +552,13 @@ Note:
 <br>
 <p style="line-height:40%"><span style="font-size:0.6em">
  &bull; Select "Browse my computer for driver software" <br><br>
- &bull; Click the <b>Browse</b>  button – Click on "Include subfolders"<br><br>
+ &bull; Click the <b>Browse</b>  button – Click &check; on "Include subfolders"<br><br>
  &bull; Browse to the location of the folder for the FTDI driver<br><br>
  &bull; Click on the folder and press <b>OK</b>
 @snapend
 
 
-@snap[south-west span-25 ]
+@snap[south-west span-30 ]
 <p style="line-height:50%"><span style="font-size:0.6em">
 &bull; Press <b>Next</b><br>
 &nbsp;&nbsp;Driver will be installed
