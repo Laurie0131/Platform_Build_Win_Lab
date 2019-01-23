@@ -144,7 +144,7 @@ Note:
 <br>
 <br>
 <br>
-<p style="line-height:80%" align="right"><span style="font-size:0.80em;  " >7. Left Click  on <br>"Pin to to taskbar" </span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >7. Left Click  on <br>&nbsp;&nbsp;&nbsp;"Pin to to taskbar" </span></p>
 <br>
 @snapend
 
