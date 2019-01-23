@@ -501,7 +501,7 @@ Note:
 
 ---?image=/assets/images/slides2/Slide26.JPG
 @title[Setup MinnowBoard Max Test System]
-<p style="line-height:85%" align="right"><span class="gold" >@size[1.1em](<b>Setup MinnowBoard Max Test<br>System</b>)</span></p>
+<p style="line-height:85%" align="right"><span class="gold" >@size[1.1em](<b>Setup MinnowBoard Max Test System</b>)</span></p>
 @snap[north-west span-60 ]
 <br>
 <br>
@@ -552,7 +552,7 @@ Note:
 <br>
 <p style="line-height:40%"><span style="font-size:0.6em">
  &bull; Select "Browse my computer for driver software" <br><br>
- &bull; Click the <b>Browse</b>  button – Click &check; on "Include subfolders"<br><br>
+ &bull; Click the <b>Browse</b>  button – Click @fa[check-square gp-bullet-white] on "Include subfolders"<br><br>
  &bull; Browse to the location of the folder for the FTDI driver<br><br>
  &bull; Click on the folder and press <b>OK</b>
 @snapend
