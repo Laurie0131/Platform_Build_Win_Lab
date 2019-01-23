@@ -504,8 +504,10 @@ Note:
 <p style="line-height:85%" align="right"><span class="gold" >@size[1.1em](<b>Setup MinnowBoard Max Test<br>System</b>)</span></p>
 @snap[north-west span-60 ]
 <br>
+<br>
+<br>
+<p style="line-height:50%"><span style="font-size:0.7em"><b>Hardware:</b></span></p>
 <ul style="list-style-type:none; line-height:0.5;">
-  <li><span style="font-size:0.8em"><b>Hardware:</b></span>  </li>
   <li><span style="font-size:0.5em">- System Under Test (SUT) - MinnowBoard Max  </span>  </li>
   <li><span style="font-size:0.5em">- USB to 3.3V TTL Cable  (6 pin to USB Type A) </span>  </li>
   <li><span style="font-size:0.5em">- 5V power supply </span>  </li>
@@ -543,18 +545,17 @@ Note:
 ---?image=/assets/images/slides2/Slide27.JPG
 @title[Setup COM port on Host]
 <p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Setup COM port on Host</b>)</span></p>
-<p style="line-height:40%"><span style="font-size:0.6em">
- - Right click yellow  @fa[exclamation-triangle gp-bullet-gold ]   and select "Update Driver Software" from the <b>Device Manager menu</b>
-</span></p>
+<p style="line-height:40%"><span style="font-size:0.6em"> &bull; Right click yellow  @fa[exclamation-triangle gp-bullet-gold ]   and select "Update Driver Software" from the <b>Device Manager menu</b></span></p>
+
 @snap[north-west span-75 ]
 <br>
 <br>
 <br>
 <p style="line-height:40%"><span style="font-size:0.6em">
- - Select "Browse my computer for driver software" <br><br>
- - Click the <b>Browse</b>  button – Click on "Include subfolders"<br><br>
- - Browse to the location of the folder for the FTDI driver<br><br>
- - Click on the folder and press <b>OK</b>
+ &bull; Select "Browse my computer for driver software" <br><br>
+ &bull; Click the <b>Browse</b>  button – Click on "Include subfolders"<br><br>
+ &bull; Browse to the location of the folder for the FTDI driver<br><br>
+ &bull; Click on the folder and press <b>OK</b>
 @snapend
 
 
@@ -563,7 +564,6 @@ Note:
 Press <b>Next</b><br>
 Driver will be installed
 </span> </p>
-<br>
 @snapend
 
 Note:
@@ -591,16 +591,16 @@ Select the serial port assigned
 @snapend
 
 
-@snap[south-east span-50 ]
+@snap[south-east span-55 ]
 <br>
 <br>
 <p style="line-height:60%" align="left"><span style="font-size:0.6em">
 Go to <b>Setup &minus;&gt; Serial Port</b> and set the following:<br>
-  - Baud: 115200<br>
-  - Parity: None<br>
-  - Data Bits: 8<br>
-  - Stop Bits: 1<br>
-  - Flow Control: Xon/Xoff
+  &nbsp;&nbsp;&bull; Baud: 115200<br>
+  &nbsp;&nbsp;&bull; Parity: None<br>
+  &nbsp;&nbsp;&bull; Data Bits: 8<br>
+  &nbsp;&nbsp;&bull; Stop Bits: 1<br>
+  &nbsp;&nbsp;&bull; Flow Control: Xon/Xoff
 </span></p>
 @snapend
 
