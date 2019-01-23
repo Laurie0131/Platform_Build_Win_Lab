@@ -499,10 +499,26 @@ Note:
 </div>
 Note:
 
----?image=/assets/images/slides/Slide26.JPG
+---?image=/assets/images/slides2/Slide26.JPG
 @title[Setup MinnowBoard Max Test System]
-### <p align="right"><span class="gold" >Setup MinnowBoard Max Test<br>System</span></p>
+<p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Setup MinnowBoard Max Test</b><br>System)</span></p>
+@snap[north-west span-50 ]
+<br>
+<br>
+<p style="line-height:80%"><span style="font-size:0.7em">Hardware: </span> </p>
+<ul style="list-style-type:disc; line-height:0.6;">
+  <li><span style="font-size:0.6em">System Under Test (SUT) - MinnowBoard Max  </span>  </li>
+  <li><span style="font-size:0.6em">USB to 3.3V TTL Cable  (6 pin to USB Type A) </span>  </li>
+  <li><span style="font-size:0.6em">5V power supply </span>  </li>
+</ul>
 
+
+<p style="line-height:70%"><span style="font-size:0.7em">Connect the USB w/ 6 pin header to SUT (MAX) </span> </p>
+<p style="line-height:70%"><span style="font-size:0.7em">Connect the USB Type A connector to Host (Laptop) </span> </p>
+<p style="line-height:70%"><span style="font-size:0.7em">On your Host  <b>Go</b> to the "<b>Device Manager</b>" in the control panel </span> </p>
+<p style="line-height:70%"><span style="font-size:0.7em">Under the "<b>Other devices</b>" category you will see a yellow  @fa[exclamation-triangle gp-bullet-yellow ]   with a warning icon next to it.  </span> </p>
+<p style="line-height:70%"><span style="font-size:0.7em">You may already have this driver installed if you do not see a @fa[exclamation-triangle gp-bullet-yellow ]   warning under "<b>Other devices</b>" </span> </p>
+@snapend
 
 Note:
 
@@ -523,10 +539,17 @@ Note:
 - You may already have this driver installed if you do not see a  !  warning under “Other devices”
 
 
----?image=/assets/images/slides/Slide27.JPG
+---?image=/assets/images/slides2/Slide27.JPG
 @title[Setup COM port on Host]
-### <p align="right"><span class="gold" >Setup COM port on Host</span></p>
+<p style="line-height:80%" align="right"><span class="gold" >@size[1.1em](<b>Setup COM port on Host</b>)</span></p>
+@snap[north-west span-80 ]
+<br>
+<br>
+<p style="line-height:80%"><span style="font-size:0.7em">
+Right click yellow  @fa[exclamation-triangle gp-bullet-yellow ]   and select "Update Driver Software“ from the Device Manager menu 
 
+</span> </p>
+@snapend
 
 Note:
 - Right click yellow   !  and select "Update Driver Software“ from the Device Manager menu 
