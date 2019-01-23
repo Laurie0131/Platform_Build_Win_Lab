@@ -140,7 +140,9 @@ Note:
 @title[Pin VS CMD Prompt 04]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
 
-@snap[north-east span-35 ]
+@snap[north-east span-40 ]
+<br>
+<br>
 <br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >7. Left Click  on "Pin to to taskbar" </span></p>
 <br>
