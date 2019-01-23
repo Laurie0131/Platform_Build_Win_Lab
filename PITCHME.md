@@ -357,8 +357,6 @@ Copy the  `Nasm` directory to `C:\`
 
 @snap[north-west span-100 ]
 <br>
-<br>
-
 <p style="line-height:80%" align="left">@size[1.10em](Nt32Pkg)<span style="font-size:0.80em;  " > - Build with edk2<br>
 Invoke `Edksetup.bat`
 </span></p>
@@ -372,8 +370,8 @@ Invoke `Edksetup.bat`
 </pre>
 
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
-Edit the file "`Conf/target.txt`" &lpar;change `TOOL_CHAIN_TAG`%rpar; <br>
-`notepad Conf/target.txt</span></p>
+Edit the file "`Conf/target.txt`" </span><span style="font-size:0.50em;  " > <br>
+&lpar;change `TOOL_CHAIN_TAG`%rpar; </span></p>
 <br>
 @snapend
 
@@ -385,7 +383,6 @@ Build Nt32Pkg
 <pre>
 ```
 
-  C:\> cd FW/edk2
   C:\FW\edk2> build -D BUILD_NEW_SHELL
 
 ```
