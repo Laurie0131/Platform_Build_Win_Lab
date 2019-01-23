@@ -106,7 +106,7 @@ Note:
 <br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >4. Left Click <b>"Visual Studio Tools"</b> </span></p>
 <br>
-<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >This will open another Windows file explorer window <br> Note: <i>VS 2013 example</i>  </span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >This will open another Windows file explorer window <br></span><span style="font-size:0.60em;  " > Note: <i>VS 2013 example, other version of VS maybe different</i>  </span></p>
 
 <br>
 @snapend
@@ -116,10 +116,23 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide6.JPG
+---?image=/assets/images/slides2/Slide6.JPG
 @title[Pin VS CMD Prompt 03]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
+@snap[north-east span-60 ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >5. Select <b>"Developer Command Prompt for VS201<i>n</i>"</b> </span></p>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >6. Right Click to open Windows dialog box </span></p>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " ><font color="yellow">Do not use any of the other<br> ".. Command Prompts" </font></span></p>
 
+<br>
+@snapend
 Note:
 
 
