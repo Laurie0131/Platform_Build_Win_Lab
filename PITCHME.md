@@ -720,16 +720,18 @@ Note:
 ---?image=/assets/images/slides2/Slide36.JPG
 @title[MinnowBoard MAX Lab Setup]
 ### <p align="right"><span class="gold" >MinnowBoard MAX Lab Setup</span></p>
-@snap[north-west span-100 ]
+@snap[north-west span-70 ]
 <br>
-<p style="line-height:60%"><span style="font-size:0.8em">
+<br>
+<p style="line-height:70%"><span style="font-size:0.8em">
 @color[#87E2A9](Previous Lab Setup Requirements)<br></span>
-<span style="font-size:0.7em">
+<span style="font-size:0.6em">
 NASM<br>
 &nbsp;Copy ... `Lab_Material_FW\FW\Nasm` to `C:\` <br>
 </span>
 <span style="font-size:0.8em">
-@color[#87E2A9](Additional Lab Setup -)<br>&nbsp;&nbsp;&nbsp;
+@color[#87E2A9](Additional Lab Setup -)</span><br>
+<span style="font-size:0.5em">&nbsp;&nbsp;&nbsp;
 @color[#87E2A9]( `PlatformLab_FW/FW/PlatformBuildLab`) 
 </span></p>
 
@@ -745,17 +747,19 @@ Directories:<br>&nbsp;&nbsp;
 &bull;Nasm<br>&nbsp;&nbsp;
 &bull;TeraTerm
 </snap></p>
+<br>
 @snapend
 
-@snap[south-east span-75 ]
-<p style="line-height:40%" align="left"><span style="font-size:0.5em">
+@snap[south-east span-80 ]
+<p style="line-height:40%" align="left"><span style="font-size:0.5em"><font color="yellow">
+<br>&nbsp;&nbsp;
+&hyphen;&nbsp;&nbsp;MinnowBoard Max Project source code<br>&nbsp;&nbsp;
+&hyphen;&nbsp;&nbsp;Iasl Assembler C:/asl directory<br>&nbsp;&nbsp;
+&hyphen;&nbsp;&nbsp;Driver for Seria/USB Uart cable<br>&nbsp;&nbsp;
+&hyphen;&nbsp;&nbsp;Nasm Assembly compiler- Same as previous lab<br>&nbsp;&nbsp;
+&hyphen;&nbsp;&nbsp;TeraTerm application
+</font></snap></p>
 <br>
-&hyphen;MinnowBoard Max Project source code<br>&nbsp;&nbsp;
-&hyphen;Iasl Assembler C:/asl directory<br>&nbsp;&nbsp;
-&hyphen;Driver for Seria/USB Uart cable<br>&nbsp;&nbsp;
-&hyphen;Nasm Assembly compiler- Same as previous lab<br>&nbsp;&nbsp;
-&hyphen;TeraTerm application
-</snap></p>
 @snapend
 
 Note:
