@@ -81,7 +81,7 @@ Note:
 <br>
 <br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >Steps to Pin Visual Studio Command Prompt to task bar for Windows 10 </span></p>
-<ol style="line-height:0.7;">
+<ol style="line-height:0.8;">
  <li><span style="font-size:0.80em;  " >Using the Start menu in Windows 10, Left Click on "Windows Key" Lower Left @fa[windows gp-bullet-cyan]</span></li>
  <li><span style="font-size:0.80em;  " >Scroll down from the scroll bar on the right until "Visual Studio 201@color[#e49436](<i>n</i>)" </span></li>
  <li><span style="font-size:0.80em;  " >Left Click "Visual Studio 201@color[#e49436](<i>n</i>)"</span></li>
@@ -119,14 +119,13 @@ Note:
 ---?image=/assets/images/slides2/Slide6.JPG
 @title[Pin VS CMD Prompt 03]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
-@snap[north-east span-60 ]
+@snap[north-east span-55 ]
 <br>
 <br>
 <br>
 <br>
 <br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >5. Select <b>"Developer Command Prompt for VS201<i>n</i>"</b> </span></p>
-<br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >6. Right Click to open Windows dialog box </span></p>
 <br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " ><font color="yellow">Do not use any of the other<br> ".. Command Prompts" </font></span></p>
