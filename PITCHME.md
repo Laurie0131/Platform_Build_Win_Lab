@@ -94,9 +94,23 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide5.JPG
+---?image=/assets/images/slides2/Slide5.JPG
 @title[Pin VS CMD Prompt 02]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
+@snap[north-east span-60 ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >4. Left Click <b>"Visual Studio Tools"</b> </span></p>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >This will open another Windows file explorer window <br> Note: <i>VS 2013 example</i>  </span></p>
+
+<br>
+@snapend
+
 
 Note:
 
