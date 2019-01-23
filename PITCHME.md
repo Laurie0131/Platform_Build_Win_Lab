@@ -119,7 +119,7 @@ Note:
 ---?image=/assets/images/slides2/Slide6.JPG
 @title[Pin VS CMD Prompt 03]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
-@snap[north-east span-55 ]
+@snap[north-east span-50 ]
 <br>
 <br>
 <br>
@@ -136,9 +136,21 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide7.JPG
+---?image=/assets/images/slides2/Slide7.JPG
 @title[Pin VS CMD Prompt 04]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
+
+@snap[north-east span-60 ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >7. Left Click  on "Pin to to taskbar" </span></p>
+<br>
+@snapend
+
 
 Note:
 
