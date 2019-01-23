@@ -436,7 +436,7 @@ Note:
 &nbsp;&nbsp;<font face="Consolas"><span style="background-color: #000000; font-size:0.55em; ">
 &nbsp;&nbsp;C:\FW\edk2&gt;  Build Run &nbsp;&nbsp;</span></font></p>
 <br>
-<p style="line-height:80%" align="left"><span style="font-size:0.6em" > Notice 2 "UGA Window n" are opened </span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.6em" > Notice 2 "UGA Window n" opened </span></p>
 @snapend
 
 
