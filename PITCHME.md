@@ -383,6 +383,7 @@ Build Nt32Pkg
 <pre>
 ```
 
+  C:\> cd FW/edk2
   C:\FW\edk2> build -D BUILD_NEW_SHELL
 
 ```
