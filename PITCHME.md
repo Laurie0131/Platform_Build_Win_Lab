@@ -66,21 +66,21 @@ Note:
 @title[Pin VS CMD Prompt]
 ### <p align="right"><span class="gold" >Pin  VS Command Prompt</span></p>
 
-@snap[north-east span-25 fragment]
+@snap[north-east span-25 ]
 <br>
 <br>
 <p style="line-height:40%" align="center">@fa[windows gp-bullet-cyan]<BR><span style="font-size:0.450em;  " >Windows 10 </span></p>
 <br>
 @snapend
 
-@snap[north-east span-60 fragment]
+@snap[north-east span-60 ]
 <br>
 <br>
 <br>
 <br>
 <br>
 <br>
-<p style="line-height:70%" align="left"><span style="font-size:0.80em;  " >Steps to Pin Visual Studio Command Prompt to task bar for Windows 10 </span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >Steps to Pin Visual Studio Command Prompt to task bar for Windows 10 </span></p>
 <ol style="line-height:0.7;">
  <li><span style="font-size:0.80em;  " >Using the Start menu in Windows 10, Left Click on "Windows Key" Lower Left @fa[windows gp-bullet-cyan]</span></li>
  <li><span style="font-size:0.80em;  " >Scroll down from the scroll bar on the right until "Visual Studio 201@color[#e49436](<i>n</i>)" </span></li>
