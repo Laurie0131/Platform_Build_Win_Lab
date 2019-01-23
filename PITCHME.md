@@ -280,6 +280,7 @@ Note:
 @snap[north-west span-100 ]
 <br>
 <br>
+<br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >1. Extract the Downloaded `Lab_Material_FW-master.zip` to `C:\` </span></p>
 <br>
 @snapend
@@ -302,10 +303,9 @@ Extract the Downloaded Lab_Material_FW.zip to Home (this will create a directory
 
 @snap[north-west span-100 ]
 <br>
-<br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
 2. Open a VS command prompt <br>
-3. Create a working space directory "FW" <br>&nbsp;&nbsp;<font face="Consolas"><span style="background-color: #000000"> 
+3. Create a working space directory "FW" <br>&nbsp;&nbsp;<font face="Consolas"><span style="background-color: #000000; font-size:0.50em;"> 
 &nbsp;&nbsp;C:\&gt; mkdir FW&nbsp;&nbsp;</span></font><br>
 4. From the downloaded `Lab_Material_FW` folder, <b>copy</b>and <b>paste</b> folder "`...\edk2`" to `C:/FW`
 </span></p>
@@ -331,8 +331,9 @@ Note:
 @snap[north-west span-100 ]
 <br>
 <br>
+<br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
-Copy Name to `C:\`
+Copy `Nasm` to `C:\`
 </span></p>
 <br>
 @snapend
