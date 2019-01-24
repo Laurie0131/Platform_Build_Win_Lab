@@ -770,9 +770,23 @@ Note:
 
 
 
----?image=/assets/images/slides/Slide37.JPG
+---?image=/assets/images/slides2/Slide37.JPG
 @title[Preparing to Build]
 ### <p align="right"><span class="gold" >Preparing to Build</span></p>
+<p style="line-height:70%"><span style="font-size:0.8em">
+Directory `C:\PlatformBuildLab_FW\FW\PlatformBuildLab` from Download or zip
+</span></p>
+
+@snap[north-west span-60 ]
+<br>
+<br>
+<br>
+<p style="line-height:70%"><span style="font-size:0.8em">
+@size[1.1em](<font color="#87E2A9"> &#10102;</font>) &nbsp; Copy `\Nasm` Folder to `C:\`<br><br>
+@size[1.1em](<font color="#87E2A9"> &#10103;</font>) &nbsp; Copy `\asl` Folder to `C:\`
+</span></p>
+
+@snapend
 
 
 Note:
@@ -781,9 +795,29 @@ Copy \Nasm Folder to C:\
 Copy \asl Folder to C:\
 </pre>
 
----?image=/assets/images/slides/Slide38.JPG
+---?image=/assets/images/slides2/Slide38.JPG
 @title[Get the Minnowboard Max Source]
 ### <p align="right"><span class="gold" >Copy Minnowboard Max Source</span></p>
+@snap[north-west span-20 ]
+<br>
+<br>
+<p style="line-height:70%"><span style="font-size:0.8em">@size[1.1em](<font color="#87E2A9"> &#10104;</font>)</span></p>
+@snapend
+
+@snap[north-east span-90 ]
+<br>
+<br>
+<p style="line-height:70%" align="left"><span style="font-size:0.8em">
+Open a VS Command Prompt<br>
+Create a working space source directory under the home directory<br></span>
+<font face="Consolas"><span style="background-color: #000000; font-size:0.50em; "> 
+C:\&gt; mkdir FW</span></font></span><br>
+<span style="font-size:0.8em">
+From the `FW/PlatformBuildLab` folder, copy and paste folder "`..FW/Max`" to `C:/FW/Max`
+</span></p>
+
+@snapend
+
 
 Note:
 - Open a VS prompt  
