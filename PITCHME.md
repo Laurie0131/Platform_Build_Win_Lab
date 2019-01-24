@@ -849,7 +849,7 @@ Note:
   <li><span style="font-size:0.9em">Invoke the build process</span></li>
   <li><span style="font-size:0.9em"> Locate build output (.BIN file for BIOS image)</span></li>
   <li><span style="font-size:0.9em"> Flash binary image onto the platform</span></li>
-  <li><span style="font-size:0.9em"> Reset and boot new firmware to UEFI Shell</span></li>
+  <li><span style="font-size:0.9em"> Reset and verify new firmware</span></li>
 </ol>
 <br>
 <br>
@@ -1083,6 +1083,14 @@ Note:
 ---?image=/assets/images/slides/Slide55_1.JPG
 @title[Flash onto the MinnowBoard MAX]
 ### <p align="right"><span class="gold" >Flashing the New BIOS</span></p>
+@snap[north-west span-100  ]
+<br>
+<span style="font-size:0.9em" >@size[1.25em](<font color="yellow"> &#10106;</font>)&nbsp;&nbsp;Flash the binary image</span>
+@snapend
+
+@snap[north-east span-95  ]
+<br>
+<br>
 1.  <span style="font-size:0.85em" >&nbsp;&nbsp;Access Max Binary image file from build folder</span>
   - <span style="font-size:0.75em" >`C:/fw/Max/Vlv2TbltDevicePkg/Stitch`</span>
   - <span style="font-size:0.75em" >DEBUG 	MNW2MAX1.X64.D01.0098._date_.bin</span>
@@ -1090,7 +1098,7 @@ Note:
 2. <span style="font-size:0.85em" >&nbsp;&nbsp;Copy BIN files to a USB Thumb drive</span>
 3. <span style="font-size:0.85em" >&nbsp;&nbsp;Copy </span><span style="font-size:0.65em" >`MinnowBoard.MAX.FirmwareUpdateX64.efi`</span><span style="font-size:0.85em" > to a USB thumb &nbsp;&nbsp;drive from `$.../FW/PlatformBuildLab`</span>
 4. <span style="font-size:0.85em" >&nbsp;&nbsp;Boot to UEFI Shell on Max and type "`FS0:`"</span>
-
+@snapend
  
 Note:
 1.  Access Max Binary image file from build folder
@@ -1137,11 +1145,19 @@ FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bi
 ---?image=/assets/images/slides/Slide57_1.JPG
 @title[Verify after Firmware Update]
 ### <p align="right"><span class="gold" >Verify after Firmware Update</span></p>
+@snap[north-west span-100  ]
+<br>
+<span style="font-size:0.9em" >@size[1.25em](<font color="yellow"> &#10107;</font>)&nbsp;&nbsp;Reboot and Verify</span>
+@snapend
 
+@snap[north-east span-95  ]
+<br>
+<br>
 - <span style="font-size:0.85em" >Verify that the Firmware was updated by checking the Date</span>
 - <span style="font-size:0.85em" >At the shell prompt type “exit”</span>
 - <span style="font-size:0.85em" >The EDK II front page will show the BIOS ID with Date/time stamp</span>
- 
+@snapend
+
 Note:
 
 - Verify that the Firmware was updated by checking the Date
