@@ -900,11 +900,11 @@ $ Build_IFWI.bat /l MNW2 Debug
 @snap[north-west span-100 ]
 <br>
 <br>
-@box[bg-black text-yellow my-box-pad2  ](<p style="line-height:60%" align="left"><span style="font-size:0.60em; font-family:Consolas; " >&nbsp;&nbsp;build<br><br><br>&nbsp;&nbsp;</span></p>)
+@box[bg-black text-yellow my-box-pad2  ](<p style="line-height:60%" align="left"><span style="font-size:0.65em; font-family:Consolas; " >&nbsp;&nbsp;build<br><br><br>&nbsp;&nbsp;</span></p>)
 @snapend
 
 
-@snap[north-east span-90  fragment]
+@snap[north-east span-85  fragment]
 <br>
 <br>
 <p style="line-height:60%" align="left"><span style="font-size:0.60em; font-family:Consolas; " >
@@ -919,7 +919,7 @@ $ Build_IFWI.bat /l MNW2 Debug
 <br>
 <br>
 <br>
-@box[bg-white text-black my-box-pad2  ](<p style="line-height:70%" align="left"><span style="font-size:0.8em"><font color="cyan"><b>&nbsp;&nbsp;MACROS</font><br>&nbsp;&nbsp;Logging<br>&nbsp;&nbsp;Symbolic Debug<br>&nbsp;&nbsp;</b></span></p>)
+@box[bg-white text-black my-box-pad2  ](<p style="line-height:70%" align="left"><span style="font-size:0.8em"><font color="blue"><b>&nbsp;&nbsp;MACROS</font><br>&nbsp;&nbsp;Logging<br>&nbsp;&nbsp;Symbolic Debug<br>&nbsp;&nbsp;</b></span></p>)
 @snapend
 
 
