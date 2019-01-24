@@ -874,11 +874,12 @@ Note:
 <p align="right"><span class="gold" >@size[1.1em](<b>Platform Build Scripts</b>)</span></p>
 
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center"><span style="font-size:0.8em">Platform Build Scripts<br>&nbsp; </span></p>)
-<span style="font-size:0.8em">Many Platform have a bash or bat script file to pre or post process the EDK II build process</span>
+<p style="line-height:80%"><span style="font-size:0.8em">Many Platform have a bash or bat script file to pre or post process the EDK II build process</span></p>
 
-<p style="line-height:70%"><span style="font-size:0.7em">For MinnowBoard MAX : `Build_IFWI.bat or Build_IFWI.sh` <br>Example:<br>
+<p style="line-height:70%"><span style="font-size:0.7em">For MinnowBoard MAX : `Build_IFWI.bat or Build_IFWI.sh` <br></span>
+<span style="font-size:0.7em"><Example:<br>
 &nbsp;Build_IFWI  <br>
-&nbsp;&nbsp;&ndash; pre build processing 
+&nbsp;&nbsp;&ndash; pre build processing <br>
 &nbsp;&nbsp;&ndash;  calls `vlv_bld` - a platform script to preform the EDK II `build` <br> 
 &nbsp;&nbsp;&ndash; determines date <br>
 &nbsp;&nbsp;&ndash; board ID<br>
