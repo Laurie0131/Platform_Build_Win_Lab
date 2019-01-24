@@ -863,8 +863,8 @@ Slide says it all
 ---?image=/assets/images/slides2/Slide41.JPG
 @title[Open a VS Command Prompt]
 ### <p align="right"><span class="gold" >Open a VS Command Prompt </span></p>
-<p style="line-height:70%" align="left"><span style="font-size:0.8em">Follow Steps from <a href="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/2">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>
-@size[1.5em](<font color="yellow"> &#10102;</font>)&nbsp;&nbsp;Open a Visual Studio Command Prompt<span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.8em">Follow Steps from <a href="https://gitpitch.com/tianocore-training/Platform_Build_Win_Lab/master#/2">here</a> to Pin the Visual Studio Command Prompt to the Windows Task Bar <br>
+@size[1.25em](<font color="yellow"> &#10102;</font>)&nbsp;&nbsp;Open a Visual Studio Command Prompt<span></p>
 
 
 Note:
@@ -875,13 +875,13 @@ Note:
 ### <p align="right"><span class="gold" >Build Process for DEBUG BIOS </span></p>
 <p style="line-height:70%" align="left"><span style="font-size:0.8em">
 From the VS command Prompt ... Enter:<br>
-@size[1.5em](<font color="yellow"> &#10103;</font>)&nbsp;&nbsp;</span>
-<font face="Consolas"><span style="background-color: #000000; font-size:0.50em; "> 
-C:\&gt;cd c:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg&nbsp;&nbsp;</span></font></span><br>
+@size[1.25em](<font color="yellow"> &#10103;</font>)&nbsp;&nbsp;</span>
+<font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
+cd c:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg&nbsp;&nbsp;</span></font></span><br>
 <span style="font-size:0.8em">
-@size[1.5em](<font color="yellow"> &#10104;</font>)&nbsp;&nbsp;</span>
-<font face="Consolas"><span style="background-color: #000000; font-size:0.50em; "> 
-C:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg &gt; Build_IFWI.bat /l MNW2 Debug&nbsp;&nbsp;</span></font></span>
+@size[1.25em](<font color="yellow"> &#10104;</font>)&nbsp;&nbsp;</span>
+<font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
+Build_IFWI.bat /l MNW2 Debug&nbsp;&nbsp;</span></font></span>
 </p>
 
 
