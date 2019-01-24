@@ -781,9 +781,12 @@ Directory `C:\PlatformBuildLab_FW\FW\PlatformBuildLab` from Download or zip
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
 <p style="line-height:70%"><span style="font-size:0.8em">
-@size[1.1em](<font color="#87E2A9"> &#10102;</font>) &nbsp; Copy `\Nasm` Folder to `C:\`<br><br>
-@size[1.1em](<font color="#87E2A9"> &#10103;</font>) &nbsp; Copy `\asl` Folder to `C:\`
+@size[1.2em](<font color="#87E2A9"> &#10102;</font>) &nbsp; Copy `\Nasm` Folder to `C:\`<br><br>
+@size[1.2em](<font color="#87E2A9"> &#10103;</font>) &nbsp; Copy `\asl` Folder to `C:\`
 </span></p>
 
 @snapend
@@ -801,18 +804,18 @@ Copy \asl Folder to C:\
 @snap[north-west span-20 ]
 <br>
 <br>
-<p style="line-height:70%"><span style="font-size:0.8em">@size[1.1em](<font color="#87E2A9"> &#10104;</font>)</span></p>
+<p style="line-height:70%"><span style="font-size:0.8em">@size[1.2em](<font color="#87E2A9"> &#10104;</font>)</span></p>
 @snapend
 
-@snap[north-east span-90 ]
+@snap[north-east span-95 ]
 <br>
 <br>
 <p style="line-height:70%" align="left"><span style="font-size:0.8em">
 Open a VS Command Prompt<br>
-Create a working space source directory under the home directory<br></span>
+Create a working space source directory under the home directory<br><br></span>
 <font face="Consolas"><span style="background-color: #000000; font-size:0.50em; "> 
 C:\&gt; mkdir FW</span></font></span><br>
-<span style="font-size:0.8em">
+<span style="font-size:0.7em">
 From the `FW/PlatformBuildLab` folder, copy and paste folder "`..FW/Max`" to `C:/FW/Max`
 </span></p>
 
