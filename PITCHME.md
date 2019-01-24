@@ -785,8 +785,8 @@ Directory `C:\PlatformBuildLab_FW\FW\PlatformBuildLab` from Download or zip
 <br>
 <br>
 <p style="line-height:70%"><span style="font-size:0.8em">
-@size[1.2em](<font color="#87E2A9"> &#10102;</font>) &nbsp; Copy `\Nasm` Folder to `C:\`<br><br><br>
-@size[1.2em](<font color="#87E2A9"> &#10103;</font>) &nbsp; Copy `\asl` Folder to `C:\`
+@size[1.5em](<font color="#87E2A9"> &#10102;</font>) &nbsp; Copy `\Nasm` Folder to `C:\`<br><br><br>
+@size[1.5em](<font color="#87E2A9"> &#10103;</font>) &nbsp; Copy `\asl` Folder to `C:\`
 </span></p>
 
 @snapend
@@ -804,7 +804,7 @@ Copy \asl Folder to C:\
 @snap[north-west span-20 ]
 <br>
 <br>
-<p style="line-height:40%"><span style="font-size:0.8em"><br>@size[1.2em](<font color="#87E2A9"> &#10104;</font>)</span></p>
+<p style="line-height:40%"><span style="font-size:0.8em"><br>@size[1.5em](<font color="#87E2A9"> &#10104;</font>)</span></p>
 @snapend
 
 @snap[north-east span-95 ]
