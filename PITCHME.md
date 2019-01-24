@@ -959,64 +959,17 @@ $ Build_IFWI.bat /l MNW2 Debug
 
 @snapend
 
----?image=/assets/images/slides/Slide43.JPG
-<!-- .slide: data-transition="none" -->		 
-@title[Examine Command Line & Build Parameters]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
+---
+@title[Examine Platform Build Parameters]
+<p align="right"><span class="gold" >@size[1.1em](<b>Platform Build Parameters</b>)</span></p>
+
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="left"><span style="font-size:0.8em">Platform build parameters from top .DSC file that controls  PCD switches</span></p>)
+<br>
+For MinnowBoard MAX : `PlatformPkgConfig.dsc`
 
 
-+++?image=/assets/images/slides/Slide44.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 02]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
 
-Note:
- 
-+++?image=/assets/images/slides/Slide45.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 03]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
 
-Note:
-+++?image=/assets/images/slides/Slide46.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 04]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
-
-Note:
-+++?image=/assets/images/slides/Slide47.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 05]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
-
-Note:
-+++?image=/assets/images/slides/Slide48.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 06]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
-
-Note:
-
-+++?image=/assets/images/slides/Slide49.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 07]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
-
-Note:
-
-+++?image=/assets/images/slides/Slide50.JPG
-<!-- .slide: data-background-transition="none" -->
-<!-- .slide: data-transition="none" -->
-@title[Examine Command Line & Build Parameters 08]
-### <p align="right"><span class="gold" >Examine Build Parameters</span></p>
-
-Note:
 
 ---?image=/assets/images/slides/Slide51.JPG
 @title[Build Process for Release]
