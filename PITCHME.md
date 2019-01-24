@@ -843,14 +843,14 @@ Note:
 @title[Steps to Build & Install Firmware]
 <br>
 ### <p align="center"><span class="gold" >Steps to Build & Install Firmware</span></p>
-<ol>
-  <li><span style="font-size:0.9em">Open VS Command prompt </span></li>
-  <li><span style="font-size:0.9em"> Cd to  project directory :    `C:/fw/Max/edk2-platforms/Vlv2TbltDevicePkg` </span></li>
-  <li><span style="font-size:0.9em">Invoke the build process</span></li>
-  <li><span style="font-size:0.9em"> Locate build output (.BIN file for BIOS image)</span></li>
-  <li><span style="font-size:0.9em"> Flash binary image onto the platform</span></li>
-  <li><span style="font-size:0.9em"> Reset and verify new firmware</span></li>
-</ol>
+<ul>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10102;</font>)&nbsp;Open VS Command prompt </span></li>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10103;</font>)&nbsp; Cd to  project directory :    <br>&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:0.6em">`C:/fw/Max/edk2-platforms/Vlv2TbltDevicePkg` </span></li>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10104;</font>)&nbsp;Invoke the build process</span></li>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10105;</font>)&nbsp; Locate build output (.BIN file for BIOS image)</span></li>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10106;</font>)&nbsp; Flash binary image onto the platform</span></li>
+  <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10107;</font>)&nbsp; Reset and verify new firmware</span></li>
+</ul>
 <br>
 <br>
 <span style="font-size:0.9em"><font color="yellow"><i><b>Next slides will follow the above steps</b></i></font></span>
