@@ -964,15 +964,28 @@ $ Build_IFWI.bat /l MNW2 Debug
 <p align="right"><span class="gold" >@size[1.1em](<b>Platform Build and PCD Parameters</b>)</span></p>
 
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center"><span style="font-size:0.8em">Platform Parameters<br>&nbsp; </span></p>)
-<br>
+<span style="font-size:0.8em">Many Platform Parameters are defined in  a top .DSC file that controls  PCD and build switches</span>
 
-<span style="font-size:0.8em">Many Platform Parameters are defined in  a top .DSC file that controls  PCD switches</span>
+<p style="line-height:70%"><span style="font-size:0.7em">For MinnowBoard MAX : `PlatformPkgConfig.dsc` <br>Example:</span></p>
 
-For MinnowBoard MAX : <br>`PlatformPkgConfig.dsc`
+```xml
+ #
+ # TRUE is ENABLE. FASLE is DISABLE.
+ #
+  //  . . .
+ DEFINE SECURE_BOOT_ENABLE = TRUE
+ DEFINE USER_IDENTIFICATION_ENABLE = FALSE
+ DEFINE VARIABLE_INFO_ENABLE = FALSE
+ DEFINE S3_ENABLE = TRUE
+ DEFINE CAPSULE_ENABLE = TRUE
+ DEFINE CAPSULE_RESET_ENABLE = TRUE
+  // . . .
 
+```
 
+Note:
 
-
+many will have if statements in the major .dsc file in order to enable a feature or not
 
 ---?image=/assets/images/slides/Slide51.JPG
 @title[Build Process for Release]
