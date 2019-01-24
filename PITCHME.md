@@ -885,11 +885,43 @@ From the VS command Prompt ... Enter:<br>
 
 
 Note:
+
 - From the VS Command Prompt … ENTER:
+
 <pre>
 $ cd C:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg 
 $ Build_IFWI.bat /l MNW2 Debug
 </pre>
+
+---
+@title[Examine Command Line & Build Parameters]
+<p align="right"><span class="gold" >@size[1.1em](<b>Examine Build Parameters</b>)</span></p>
+
+@snap[north-west span-100 ]
+<br>
+<br>
+@box[bg-black text-yellow my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >&nbsp;&nbsp;build<br><br><br>&nbsp;&nbsp;</span></p>)
+@snapend
+
+
+@snap[north-east span-95  fragment]
+<br>
+<br>
+<p style="line-height:70%" align="left"><span style="font-size:0.450em; font-family:Consolas; " >
+<font color="#75deFF">-D SYMBOLIC_DEBUG=TRUE&nbsp;&nbsp;  -D LOGGING=TRUE
+ . . . -D <i> Option &lpar;n&rpar;</i> </font>
+</span></p>
+@snapend
+
+
+@snap[north-east span-30  fragment]
+<br>
+<br>
+<br>
+<br>
+@box[bg-white text-black my-box-pad2  ](<p style="line-height:40%" align="left"><span style="font-size:0.8em"><font color="cyan">MACROS</font><br>&nbsp;&nbsp;Logging<br>&nbsp;&nbsp;Symbolic Debug<br>&nbsp;&nbsp;</span></p>)
+@snapend
+
 
 ---?image=/assets/images/slides/Slide43.JPG
 <!-- .slide: data-transition="none" -->		 
