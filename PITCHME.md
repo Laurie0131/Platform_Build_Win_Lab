@@ -877,12 +877,11 @@ Note:
 From the VS command Prompt ... Enter:<br>
 @size[1.25em](<font color="yellow"> &#10103;</font>)&nbsp;&nbsp;</span>
 <font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
-cd c:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg&nbsp;&nbsp;</span></font></span><br>
+&nbsp;cd c:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg&nbsp;&nbsp;</span></font></span><br><br>
 <span style="font-size:0.8em">
 @size[1.25em](<font color="yellow"> &#10104;</font>)&nbsp;&nbsp;</span>
 <font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
-Build_IFWI.bat /l MNW2 Debug&nbsp;&nbsp;</span></font></span>
-</p>
+&nbsp;Build_IFWI.bat /l MNW2 Debug&nbsp;&nbsp;</span></font></p>
 
 
 Note:
