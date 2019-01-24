@@ -986,7 +986,7 @@ $ Build_IFWI.bat /l MNW2 Debug
 <p align="right"><span class="gold" >@size[1.1em](<b>Platform Build and PCD Parameters</b>)</span></p>
 
 @box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center"><span style="font-size:0.8em">Platform Parameters<br>&nbsp; </span></p>)
-<span style="font-size:0.8em">Many Platform Parameters are defined in  a top .DSC file that controls  PCD and build switches</span>
+<p style="line-height:80%"><span style="font-size:0.8em">Many Platform Parameters are defined in  a top .DSC file that controls  PCD and build switches</span></p>
 
 <p style="line-height:70%"><span style="font-size:0.7em">For MinnowBoard MAX : `PlatformPkgConfig.dsc` <br>Example:</span></p>
 
@@ -1007,12 +1007,29 @@ $ Build_IFWI.bat /l MNW2 Debug
 
 Note:
 
-many will have if statements in the major .dsc file in order to enable a feature or not
+many will have "ifdef" statements in the major .dsc file in order to enable a feature or not
 
 
----?image=/assets/images/slides/Slide51.JPG
+---?image=/assets/images/slides2/Slide51.JPG
 @title[Build Process for Release]
 ### <p align="right"><span class="gold" >Build Process for Release</span></p>
+<p style="line-height:80%" align="left"><span style="font-size:0.8em">
+From the VS command Prompt ... Enter:<br>
+</span><br>
+<span style="font-size:0.8em">
+@size[1.25em](<font color="yellow"> &#10104;</font>)&nbsp;&nbsp;</span>
+<font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
+&nbsp;Build_IFWI.bat /l MNW2 Release&nbsp;&nbsp;</span></font></p>
+
+
+@snap[north-east span-30  fragment]
+<br>
+<br>
+<p style="line-height:40%" align="left"><span style="font-size:0.8em"><br></span></p>
+@box[bg-white text-black rounded my-box-pad2  ](<p style="line-height:70%" align="left"><span style="font-size:0.8em"><font color="blue"><b>&nbsp;&nbsp;Note MACROS</font><br>&nbsp;&nbsp;Logging<br>&nbsp;&nbsp;Symbolic Debug<br>&nbsp;&nbsp;<font color="blue">Set to FALSE</font><br>&nbsp;&nbsp;</b></span></p>)
+@snapend
+
+
 
 Note:
 From VS Prompt enter:
