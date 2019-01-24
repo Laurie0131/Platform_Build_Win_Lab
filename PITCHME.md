@@ -960,12 +960,15 @@ $ Build_IFWI.bat /l MNW2 Debug
 @snapend
 
 ---
-@title[Examine Platform Build Parameters]
-<p align="right"><span class="gold" >@size[1.1em](<b>Platform Build Parameters</b>)</span></p>
+@title[Examine Platform Parameters]
+<p align="right"><span class="gold" >@size[1.1em](<b>Platform Build and PCD Parameters</b>)</span></p>
 
-@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="left"><span style="font-size:0.8em">Platform build parameters from top .DSC file that controls  PCD switches</span></p>)
+@box[bg-purple-pp text-white rounded my-box-pad2  ](<p style="line-height:70%" align="center"><span style="font-size:0.8em">Platform Parameters<br>&nbsp; </span></p>)
 <br>
-For MinnowBoard MAX : `PlatformPkgConfig.dsc`
+
+<span style="font-size:0.8em">Many Platform Parameters are defined in  a top .DSC file that controls  PCD switches</span>
+
+For MinnowBoard MAX : <br>`PlatformPkgConfig.dsc`
 
 
 
