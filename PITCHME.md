@@ -923,6 +923,45 @@ $ Build_IFWI.bat /l MNW2 Debug
 @snapend
 
 
+@snap[north-west span-100 fragment ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:60%" align="left"><span style="font-size:0.8em"><font color="#87E2A9">Properties from `Conf\Target.txt`</font></span></p>
+<table id="recTable">
+	<tr class="fragment">
+		<td align="center" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>TARGET</b></span></p></td>
+		<td align="center" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>= @color[red](DEBUG)</b></span></p></td>
+		<td align="center" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Build Mode</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="center" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>TARGET_ARCH</b></span></p></td>
+		<td align="center" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>= @color[red](IA32 X64)</b></span></p></td>
+		<td align="center" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>CPU Architecture</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="center" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>TOOL_CHAIN_TAG</b></span></p></td>
+		<td align="center" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>= @color[red](VS2013x86)</b></span></p></td>
+		<td align="center" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Tool Chain VS 2013</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="center" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>ACTIVE_PLATFORM</b></span></p></td>
+		<td align="center" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>= @color[red](Vlv2TbltDevicePkg /PlatformPkgX64)</b></span></p></td>
+		<td align="center" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Platform DSC file</b></span></p></td>
+	</tr>
+	<tr class="fragment">
+		<td align="center" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>MAX_CONCURRENT_THREAD_NUMBER</b></span></p></td>
+		<td align="center" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>= @color[red](1)</b></span></p></td>
+		<td align="center" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Thread Count</b></span></p></td>
+	</tr>
+</table>
+
+
+@snapend
+
 ---?image=/assets/images/slides/Slide43.JPG
 <!-- .slide: data-transition="none" -->		 
 @title[Examine Command Line & Build Parameters]
