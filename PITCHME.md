@@ -917,7 +917,7 @@ $ Build_IFWI.bat /l MNW2 Debug
 @snap[north-east span-30  fragment]
 <br>
 <br>
-<br>
+<p style="line-height:40%" align="left"><span style="font-size:0.8em"><br></span></p>
 @box[bg-white text-black my-box-pad2  ](<p style="line-height:70%" align="left"><span style="font-size:0.8em"><font color="blue"><b>&nbsp;&nbsp;MACROS</font><br>&nbsp;&nbsp;Logging<br>&nbsp;&nbsp;Symbolic Debug<br>&nbsp;&nbsp;</b></span></p>)
 @snapend
 
@@ -927,32 +927,32 @@ $ Build_IFWI.bat /l MNW2 Debug
 <br>
 <br>
 <br>
-<p style="line-height:60%" align="left"><span style="font-size:0.8em"><font color="#87E2A9"><b>Properties from `Conf\Target.txt`</b></font></span></p>
+<p style="line-height:60%" align="left"><span style="font-size:0.8em"><font color="#87E2A9"><br><b>Properties from `Conf\Target.txt`</b></font></span></p>
 <table id="recTable">
 	<tr class="fragment">
-		<td align="left" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>TARGET</b></span></p></td>
-		<td align="left" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>= @color[red](DEBUG)</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Build Mode</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TARGET</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[red](DEBUG)</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Build Mode</b></span></p></td>
 	</tr>
 	<tr class="fragment">
-		<td align="left" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>TARGET_ARCH</b></span></p></td>
-		<td align="left" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>= @color[red](IA32 X64)</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>CPU Architecture</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TARGET_ARCH</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[red](IA32 X64)</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>CPU Architecture</b></span></p></td>
 	</tr>
 	<tr class="fragment">
-		<td align="left" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>TOOL_CHAIN_TAG</b></span></p></td>
-		<td align="left" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>= @color[red](VS2013x86)</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Tool Chain VS 2013</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>TOOL_CHAIN_TAG</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[red](VS2013x86)</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Tool Chain VS 2013</b></span></p></td>
 	</tr>
 	<tr class="fragment">
-		<td align="left" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>ACTIVE_PLATFORM</b></span></p></td>
-		<td align="left" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>= @color[red](Vlv2TbltDevicePkg /PlatformPkgX64)</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Platform DSC file</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>ACTIVE_PLATFORM</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[red](Vlv2TbltDevicePkg /PlatformPkgX64)</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Platform DSC file</b></span></p></td>
 	</tr>
 	<tr class="fragment">
-		<td align="left" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>MAX_CONCURRENT_ THREAD_NUMBER</b></span></p></td>
-		<td align="left" bgcolor="#F2f2f2" height=".025"><p style="line-height:010%"><span style="font-size:0.60em; font-family:Consolas; " ><b>= @color[red](1)</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".025"><p style="line-height:010%"><span style="font-size:0.9em" ><b>Thread Count</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>MAX_CONCURRENT_ THREAD_NUMBER</b></span></p></td>
+		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[red](1)</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Thread Count</b></span></p></td>
 	</tr>
 </table>
 
