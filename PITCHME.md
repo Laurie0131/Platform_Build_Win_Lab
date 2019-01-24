@@ -1089,8 +1089,7 @@ Note:
 <span style="font-size:0.9em" >@size[1.25em](<font color="yellow"> &#10106;</font>)&nbsp;&nbsp;Flash the binary image</span>
 @snapend
 
-<br>
-<br>
+
 <br>
 1.  <span style="font-size:0.85em" >&nbsp;&nbsp;Access Max Binary image file from build folder</span>
   - <span style="font-size:0.75em" >`C:/fw/Max/Vlv2TbltDevicePkg/Stitch`</span>
@@ -1151,8 +1150,6 @@ FS0:\> MinnowBoard.MAX.FirmwareUpdateX64.efi MNW2MAX1.X64.0098.D01.1801181447.bi
 <span style="font-size:0.9em" >@size[1.25em](<font color="yellow"> &#10107;</font>)&nbsp;&nbsp;Reboot and Verify</span>
 @snapend
 
-<br>
-<br>
 <br>
 - <span style="font-size:0.85em" >Verify that the Firmware was updated by checking the Date</span>
 - <span style="font-size:0.85em" >At the shell prompt type “exit”</span>
