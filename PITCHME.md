@@ -873,11 +873,11 @@ Note:
 ---?image=/assets/images/slides2/Slide42.JPG
 @title[Build Process for DEBUG]
 ### <p align="right"><span class="gold" >Build Process for DEBUG BIOS </span></p>
-<p style="line-height:60%" align="left"><span style="font-size:0.8em">
+<p style="line-height:80%" align="left"><span style="font-size:0.8em">
 From the VS command Prompt ... Enter:<br>
 @size[1.25em](<font color="yellow"> &#10103;</font>)&nbsp;&nbsp;</span>
 <font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
-&nbsp;cd c:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg&nbsp;&nbsp;</span></font></span><br><br>
+&nbsp;cd c:\FW\Max\edk2-Platforms\Vlv2TbltDevicePkg&nbsp;&nbsp;</span></font></span><br>
 <span style="font-size:0.8em">
 @size[1.25em](<font color="yellow"> &#10104;</font>)&nbsp;&nbsp;</span>
 <font face="Consolas"><span style="background-color: #000000; font-size:0.650em; "> 
