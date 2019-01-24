@@ -952,7 +952,7 @@ $ Build_IFWI.bat /l MNW2 Debug
 	<tr class="fragment">
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:040%"><span style="font-size:0.460em; font-family:Consolas; " ><b>MAX_CONCURRENT_ THREAD_NUMBER</b></span></p></td>
 		<td align="left" bgcolor="#404040" height=".0025"><p style="line-height:010%"><span style="font-size:0.460em; font-family:Consolas; " ><b>= @color[red](1)</b></span></p></td>
-		<td align="left" bgcolor="#0070C0" height=".0025"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Thread Count</b></span></p></td>
+		<td align="left" bgcolor="#0070C0" height=".0025" width="30%"><p style="line-height:010%"><span style="font-size:0.6em" ><b>Thread Count</b></span></p></td>
 	</tr>
 </table>
 
