@@ -843,7 +843,7 @@ Note:
 @title[Steps to Build & Install Firmware]
 <br>
 ### <p align="center"><span class="gold" >Steps to Build & Install Firmware</span></p>
-<ul style="list-style-type:none; line-height:0.7;">
+<ul style="list-style-type:none; line-height:0.9;">
   <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10102;</font>)&nbsp; Open VS Command prompt </span></li>
   <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10103;</font>)&nbsp; Cd to  project directory :    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="font-size:0.6em">`C:/fw/Max/edk2-platforms/Vlv2TbltDevicePkg` </span></li>
   <li><span style="font-size:0.9em">@size[1.125em](<font color="yellow"> &#10104;</font>)&nbsp; Invoke the build process</span></li>
