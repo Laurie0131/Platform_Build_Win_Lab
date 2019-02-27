@@ -390,11 +390,11 @@ Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Pyth
 </span></p>
 <pre lang="bash">
 ```
-  C:\> cd FW/edk2
+      C:\> cd FW/edk2
   C:\FW\edk2> edksetup.bat Rebuild
 ```
 </pre>
-<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+<p style="line-height:60%" align="left"><span style="font-size:0.80em;  " >
 Edit the file "`Conf/target.txt`" </span><span style="font-size:0.50em;  " > <br>
 &lpar;change `TOOL_CHAIN_TAG`&rpar; &nbsp;&nbsp;`Notepad Conf/target.txt`</span></p>
 <br>
