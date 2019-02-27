@@ -343,7 +343,7 @@ Copy the  `Nasm` directory to `C:\`
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Download and install Python</font></span></p>
 @snapend
 
-@snap[north-west span-65 ]
+@snap[north-west span-60 ]
 <br>
 <br>
 <br>
@@ -355,7 +355,7 @@ Copy the  `Nasm` directory to `C:\`
 <br>
 @snapend
 
-@snap[north-east span-40 ]
+@snap[north-east span-45 ]
 <br>
 <br>
 <br>
