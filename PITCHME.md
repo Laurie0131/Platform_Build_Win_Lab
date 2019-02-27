@@ -361,7 +361,8 @@ Copy the  `Nasm` directory to `C:\`
 <br>
 <br>
 <br>
-![python_logo](assets/images/python-logo@2x.png)
+<a href="https://www.python.org">
+![python_logo](assets/images/python-logo@2x.png)</a>
 @snapend
 
 ---?image=assets/images/binary-strings-black2.jpg
