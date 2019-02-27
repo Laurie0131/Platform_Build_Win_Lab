@@ -376,11 +376,25 @@ Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Pyth
 
 @snapend
 
+
+@snap[north-east span-45 fragment ]
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style="line-height:40%" align="left"><span style="font-size:02.80em;  " >
+@color[yellow](&#8678;)
+</span></p>
+@snapend
+
 @snap[south-west span-100 ]
-<p style="line-height:90%" align="left"><span style="font-size:0.60em;  " >
+<p style="line-height:90%" align="left"><span style="font-size:0.50em;  " >
 @color[white](Building `BaseTools` only needs to be done once )
 </span></p>
-<br>
 <br>
 @snapend
 
