@@ -209,10 +209,7 @@ Note:
 
 ```
   C:\WS> git clone https://github.com/tianocore/edk2.git
-  C:\WS> git clone https://github.com/tianocore/edk2-BaseTools-win32.git
 
-  
-  C:\WS>  set EDK_TOOLS_BIN=c:\WS\edk2-BaseTools-win32
 ```
 
 <span style="font-size:0.7em" ><b>@color[yellow](NOTE:)</b> Lab Material will have a different “edk2” </span>
@@ -232,10 +229,7 @@ OPTIONAL - Open a  “git” command prompt and create a source working director
 
 - OPTIONAL - Download edk2 source tree using Git command prompt
 - C:\WS> git clone https://github.com/tianocore/edk2.git
-- C:\WS> git clone https://github.com/tianocore/edk2-BaseTools-win32.git
 
-- OPTIONAL - Build the tools
-- C:\WS>  set EDK_TOOLS_BIN=c:\WS\edk2-BaseTools-win32
 </pre>
 
 - NOTE: Lab Material will have a different “edk2”
@@ -253,7 +247,7 @@ OPTIONAL - Open a  “git” command prompt and create a source working director
 <span style="font-size:0.9em" >Download the Lab_Material_FW.zip from : </span> @fa[github gp-bullet-white] <span style="font-size:0.7em"><a href="https://github.com/tianocore-training/Lab_Material_FW/archive/master.zip">github.com Lab_Matrial_FW.zip</a></span><br>
 <br>
 <span style="font-size:0.9em" >OR<br>Use `git clone` to download the Lab_Material_FW<span>
-```
+```bash
 $ git clone https://github.com/tianocore-training/Lab_Material_FW.git
 ```
 <span style="font-size:0.9em" >Directory Lab_Material_FW will be created</span>
@@ -358,13 +352,13 @@ Copy the  `Nasm` directory to `C:\`
 @snap[north-west span-100 ]
 <br>
 <p style="line-height:80%" align="left">@size[1.10em](Nt32Pkg)<span style="font-size:0.80em;  " > - Build with edk2<br>
-Invoke `Edksetup.bat`
+Invoke `Edksetup.bat` to build `BaseTools`
 </span></p>
-<pre>
+<pre lang="bash">
 ```
 
   C:\> cd FW/edk2
-  C:\FW\edk2> edksetup.bat
+  C:\FW\edk2> edksetup.bat Rebuild
 
 ```
 </pre>
@@ -380,11 +374,10 @@ Edit the file "`Conf/target.txt`" </span><span style="font-size:0.50em;  " > <br
 Save and Exit <br>
 Build Nt32Pkg
 </span></p>
-<pre>
+<pre lang="bash">
 ```
 
-  C:\> cd FW/edk2
-  C:\FW\edk2> build -D BUILD_NEW_SHELL
+   C:\FW\edk2> build -D BUILD_NEW_SHELL
 
 ```
 </pre>
@@ -393,7 +386,7 @@ Build Nt32Pkg
 
 Note:
 - `$ Cd C:/fw/edk2`
-- invoke `$ edksetup.bat`
+- invoke `$ edksetup.bat Rebuild`
 - change MYTOOLS to VS2013x86
 - `$ Build -D BUILD_NEW_SHELL`
 
