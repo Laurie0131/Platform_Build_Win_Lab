@@ -340,11 +340,10 @@ Copy the  `Nasm` directory to `C:\`
 
 @snap[north-east span-50 ]
 <br>
-<p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Download and install Python</font></span></p>
+<p style="line-height:80%" align="right"><span style="font-size:0.8em" ><font color="#e49436">–Download and install Python<br> -Build `BaseTools`</font></span></p>
 @snapend
 
 @snap[north-west span-60 ]
-<br>
 <br>
 <br>
 <br>
@@ -357,7 +356,7 @@ Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Pyth
 </span></p>
 <pre lang="xml">
 ```
-      C:\> cd FW/edk2
+       C:\> cd FW/edk2
   C:\FW\edk2> edksetup.bat Rebuild
 ```
 </pre>
