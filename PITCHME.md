@@ -340,16 +340,16 @@ Copy the  `Nasm` directory to `C:\`
 
 @snap[north-east span-50 ]
 <br>
-<p style="line-height:80%" align="right"><span style="font-size:0.8em" ><font color="#e49436">–Download and install Python<br> -Build `BaseTools`</font></span></p>
+<p style="line-height:80%" align="right"><span style="font-size:0.8em" ><font color="#e49436"><br>–Download and install Python<br> -Build `BaseTools`</font></span></p>
 @snapend
 
 @snap[north-west span-60 ]
 <br>
 <br>
 <br>
-<br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
  Download and install Python 3.7.x for Windows from: <br> https://www.python.org
+<br>
 <br>
 <br>
 Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Python 3.7.x&rpar;)
@@ -369,9 +369,14 @@ Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Pyth
 <br>
 <br>
 <br>
-<br>
 <a href="https://www.python.org">
 ![python_logo](assets/images/python-logo@2x.png)</a>
+@snapend
+
+@snap[south-west span-100 ]
+<p style="line-height:90%" align="left"><span style="font-size:0.60em;  " >
+Building `BaseTools` only needs to be done once 
+</span></p>
 @snapend
 
 ---?image=assets/images/binary-strings-black2.jpg
@@ -411,7 +416,7 @@ Edit the file "`Conf/target.txt`" </span><span style="font-size:0.50em;  " > <br
 @snap[south-west span-100 ]
 <p style="line-height:90%" align="left"><span style="font-size:0.80em;  " >
 Save and Exit <br>
-Build Nt32Pkg
+<b>Build Nt32Pkg</b>
 </span></p>
 <pre lang="bash">
 ```
