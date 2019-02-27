@@ -348,14 +348,14 @@ Copy the  `Nasm` directory to `C:\`
 <br>
 <br>
 <br>
+<br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
-Download and install Python 3.7.x for Windows from: https://www.python.org
+ Download and install Python 3.7.x for Windows from: <br> https://www.python.org
 </span></p>
 <br>
 @snapend
 
-@snap[north-east span-30 ]
-<br>
+@snap[north-east span-35 ]
 <br>
 <br>
 <br>
