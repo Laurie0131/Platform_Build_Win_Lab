@@ -343,7 +343,8 @@ Copy the  `Nasm` directory to `C:\`
 <p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Download and install Python</font></span></p>
 @snapend
 
-@snap[north-west span-45 ]
+@snap[north-west span-65 ]
+<br>
 <br>
 <br>
 <br>
@@ -358,7 +359,8 @@ Download and install Python 3.7.x for Windows from: https://www.python.org
 <br>
 <br>
 <br>
-![python_logo](assest/images/python-logo@2x.png)
+<br>
+![python_logo](assets/images/python-logo@2x.png)
 @snapend
 
 ---?image=assets/images/binary-strings-black2.jpg
