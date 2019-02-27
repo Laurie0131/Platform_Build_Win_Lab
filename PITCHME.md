@@ -259,6 +259,7 @@ $ git clone https://github.com/tianocore-training/Lab_Material_FW.git
 	- edk2Linux 
 	- LabSampleCode 
 	- Nasm
+	
 ```
 
 Note:
@@ -332,6 +333,34 @@ Copy the  `Nasm` directory to `C:\`
 <br>
 @snapend
 
+
+---
+@title[Build Nte32 Edk2 -install Python]
+### <p align="right"><span class="gold" >Build EDK II Nt32</span></span></p>
+
+@snap[north-east span-50 ]
+<br>
+<p align="right"><span style="font-size:0.8em" ><font color="#e49436">–Download and install Python</font></span></p>
+@snapend
+
+@snap[north-west span-45 ]
+<br>
+<br>
+<br>
+<p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
+Download and install Python 3.7.x for Windows from: https://www.python.org
+</span></p>
+<br>
+@snapend
+
+@snap[north-east span-30 ]
+<br>
+<br>
+<br>
+<br>
+![python_logo](assest/images/python-logo@2x.png)
+@snapend
+
 ---?image=assets/images/binary-strings-black2.jpg
 @title[Build Nt32 sub Section]
 <br><br><br><br><br>
@@ -352,7 +381,7 @@ Copy the  `Nasm` directory to `C:\`
 @snap[north-west span-100 ]
 <br>
 <p style="line-height:80%" align="left">@size[1.10em](Nt32Pkg)<span style="font-size:0.80em;  " > - Build with edk2<br>
-Invoke `Edksetup.bat` to build `BaseTools`
+Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Python 3.7.x&rpar;)
 </span></p>
 <pre lang="bash">
 ```
