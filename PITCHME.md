@@ -355,7 +355,8 @@ Copy the  `Nasm` directory to `C:\`
 <br>
 @snapend
 
-@snap[north-east span-35 ]
+@snap[north-east span-40 ]
+<br>
 <br>
 <br>
 <br>
