@@ -377,10 +377,7 @@ Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Pyth
 @snapend
 
 
-@snap[north-east span-45 fragment ]
-<br>
-<br>
-<br>
+@snap[east span-40 fragment ]
 <br>
 <br>
 <br>
