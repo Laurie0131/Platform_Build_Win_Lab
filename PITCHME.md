@@ -384,18 +384,16 @@ Copy the  `Nasm` directory to `C:\`
 
 @snap[north-west span-100 ]
 <br>
+<br>
 <p style="line-height:80%" align="left">@size[1.10em](Nt32Pkg)<span style="font-size:0.80em;  " > - Build with edk2<br>
 Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Python 3.7.x&rpar;)
 </span></p>
 <pre lang="bash">
 ```
-    
   C:\> cd FW/edk2
   C:\FW\edk2> edksetup.bat Rebuild
-
 ```
 </pre>
-
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
 Edit the file "`Conf/target.txt`" </span><span style="font-size:0.50em;  " > <br>
 &lpar;change `TOOL_CHAIN_TAG`&rpar; &nbsp;&nbsp;`Notepad Conf/target.txt`</span></p>
