@@ -448,6 +448,7 @@ Save and Exit <br>
 @snap[south-east span-40 fragment ]
 <p style="line-height:40%" align="left"><span style="font-size:02.80em;  " ><br><br>
 @color[yellow](&#8678;)
+<br>
 </span></p>
 @snapend
 
