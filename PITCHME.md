@@ -347,6 +347,7 @@ Copy the  `Nasm` directory to `C:\`
 <br>
 <br>
 <br>
+<br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
  Download and install Python 3.7.x for Windows from: <br> https://www.python.org
 <br>
@@ -369,14 +370,18 @@ Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Pyth
 <br>
 <br>
 <br>
+<br>
 <a href="https://www.python.org">
 ![python_logo](assets/images/python-logo@2x.png)</a>
+
 @snapend
 
 @snap[south-west span-100 ]
 <p style="line-height:90%" align="left"><span style="font-size:0.60em;  " >
-Building `BaseTools` only needs to be done once 
+@color[white](Building `BaseTools` only needs to be done once )
 </span></p>
+<br>
+<br>
 @snapend
 
 ---?image=assets/images/binary-strings-black2.jpg
