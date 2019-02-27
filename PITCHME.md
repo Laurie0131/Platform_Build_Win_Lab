@@ -384,7 +384,7 @@ Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Pyth
 <br>
 <br>
 <br>
-<p style="line-height:40%" align="left"><span style="font-size:02.80em;  " ><br>
+<p style="line-height:40%" align="left"><span style="font-size:02.80em;  " ><br><br>
 @color[yellow](&#8678;)
 </span></p>
 @snapend
@@ -444,6 +444,12 @@ Save and Exit <br>
 </pre>
 @snapend
 
+
+@snap[south-east span-40 fragment ]
+<p style="line-height:40%" align="left"><span style="font-size:02.80em;  " ><br><br>
+@color[yellow](&#8678;)
+</span></p>
+@snapend
 
 Note:
 - `$ Cd C:/fw/edk2`
