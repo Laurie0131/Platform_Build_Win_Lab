@@ -351,7 +351,17 @@ Copy the  `Nasm` directory to `C:\`
 <br>
 <p style="line-height:80%" align="left"><span style="font-size:0.80em;  " >
  Download and install Python 3.7.x for Windows from: <br> https://www.python.org
+<br>
+<br>
+Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Python 3.7.x&rpar;)
 </span></p>
+<pre lang="xml">
+```
+      C:\> cd FW/edk2
+  C:\FW\edk2> edksetup.bat Rebuild
+```
+</pre>
+
 <br>
 @snapend
 
@@ -386,12 +396,11 @@ Copy the  `Nasm` directory to `C:\`
 <br>
 <br>
 <p style="line-height:80%" align="left">@size[1.10em](Nt32Pkg)<span style="font-size:0.80em;  " > - Build with edk2<br>
-Invoke `Edksetup.bat` to build `BaseTools` @size[.7em](&nbsp;&lpar;now uses Python 3.7.x&rpar;)
+Invoke `Edksetup.bat` 
 </span></p>
 <pre lang="xml">
 ```
-      C:\> cd FW/edk2
-  C:\FW\edk2> edksetup.bat Rebuild
+  C:\FW\edk2> edksetup.bat 
 ```
 </pre>
 <p style="line-height:60%" align="left"><span style="font-size:0.80em;  " >
