@@ -356,7 +356,7 @@ Invoke `Edksetup.bat` to build `BaseTools`
 </span></p>
 <pre lang="bash">
 ```
-
+    
   C:\> cd FW/edk2
   C:\FW\edk2> edksetup.bat Rebuild
 
@@ -376,7 +376,7 @@ Build Nt32Pkg
 </span></p>
 <pre lang="bash">
 ```
-
+  
    C:\FW\edk2> build -D BUILD_NEW_SHELL
 
 ```
